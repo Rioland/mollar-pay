@@ -1,0 +1,902 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+.notify-container{
+    width: 100%;
+    max-width: 1950px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+
+}
+.notify-background{
+    background: url("../images/bg\ 2.png");
+    background-blend-mode: overlay;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.overlay.show{
+    display: block;
+}
+.overlay .share-form{
+    background-color: #fff;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    left: 25%;
+    top: 15%;
+    padding: 1.3rem 0;
+    border-radius: 3.2869rem;
+    z-index: 2;
+}
+.overlay .share-form ul{
+    margin: 1rem 0;
+}
+.overlay .share-form li a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: .7rem;
+}
+.overlay .share-form li{
+    list-style: none;
+    width: 90%;
+    margin: 5% 5%;
+    border: 2px solid #E5E5E5;
+    border-radius: 1.33rem;
+}
+.overlay .share-form li a .li-img{
+    width: 20%;
+    height: auto;
+}
+li a .li-img img{
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+.overlay .share-form li a p{
+    font-size: 1.9rem;
+    color: #5A5A5A;
+    font-weight: 400;
+}
+.share-form p{
+    font-size: clamp(1.9rem, 2.5vw, 2.1rem);
+    line-height: 2.15rem;
+    font-weight: 400;
+    width: 90%;
+    margin: 0 5%;
+    color: #191919;
+}
+.waitlist-btn a{
+    color: #fff;
+}
+.waitlist-btn{
+    border-color: #fff;
+}
+.notify-text{
+    padding: 9.6rem 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.notify2{
+    display: none;
+}
+.not-text1{
+    width: 60%;
+    padding-left: 3.3rem;
+}
+.not-text1 h1{
+    color: #fff;
+    font-size: clamp(4rem, 3vw + 1.1rem, 4.35rem);
+    letter-spacing: 2.4px;
+}
+.not-2{
+    line-height: 7rem;
+}
+.blue-btn{
+    padding: 1.75rem 3.1rem;
+    background: #CEDEF0;
+    color: #28256A;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 6.5rem;
+    border-radius: 3rem;
+}
+.not-img{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 4%;
+    top: 29%;
+}
+.not-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media only screen and (min-width:1300px) and (max-width:1400px){
+    .notify-background{
+        height: 67rem;
+    }
+    .not-2{
+        line-height: 7rem;
+    }
+    .notify-text{
+        padding: 10.3rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(4.3rem, 3vw + 1.2rem, 4.6rem);
+    }
+    .not-img{
+        top: 26%;
+    }
+    .overlay .share-form li a{
+        padding: .8rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 2.1rem;
+    }
+    .share-form p{
+        font-size: clamp(1.9rem, 2.5vw, 2.2rem);
+        line-height: 2.95rem;
+    }
+}
+@media only screen and (min-width:1401px) and (max-width:1500px){
+    .notify-background{
+        height: 71rem;
+    }
+    .not-2{
+        line-height: 8rem;
+    }
+    .notify-text{
+        padding: 10.6rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(4.6rem, 3vw + 1.2rem, 4.9rem);
+    }
+    .not-img{
+        top: 26%;
+    }
+    .blue-btn{
+        padding: 1.6rem 3rem;
+        font-size: 1.9rem;
+        line-height: 7rem;
+    }
+    .overlay .share-form li a{
+        padding: .8rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 2.1035rem;
+    }
+    .share-form p{
+        font-size: clamp(1.973rem, 2.5vw, 2.2rem);
+        line-height: 3rem;
+    }
+}
+@media only screen and (min-width:1501px) and (max-width:1600px){
+    .notify-background{
+        height: 73rem;
+    }
+    .not-2{
+        line-height: 8.5rem;
+    }
+    .not-text1{
+        padding-left: 3.5rem;
+    }
+    .notify-text{
+        padding: 11rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(4.8rem, 3vw + 1.2rem, 5.2rem);
+    }
+    .not-img{
+        top: 24%;
+    }
+    .blue-btn{
+        padding: 1.8rem 3.2rem;
+        font-size: 1.95rem;
+        line-height: 9rem;
+    }
+    .overlay .share-form li a{
+        padding: .9rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 2.2rem;
+    }
+    .share-form p{
+        font-size: clamp(2rem, 2.5vw, 2.3rem);
+        line-height: 3.1rem;
+
+    }
+}
+@media only screen and (min-width:1601px) and (max-width:1700px){
+    .notify-background{
+        height: 75rem;
+    }
+    .not-2{
+        line-height: 9rem;
+    }
+    .not-text1{
+        padding-left: 3.7rem;
+    }
+    .notify-text{
+        padding: 11.5rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(5rem, 3vw + 1.2rem, 5.4rem);
+    }
+    .not-img{
+        top: 22%;
+    }
+    .blue-btn{
+        padding: 1.9rem 3.3rem;
+        font-size: 2rem;
+        line-height: 9.5rem;
+    }
+    .overlay .share-form li a{
+        padding: 1rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 2.3rem;
+    }
+    .share-form p{
+        font-size: clamp(2.1rem, 2.5vw, 2.4rem);
+        line-height: 3.2rem;
+    }
+}
+@media only screen and (min-width:1701px) and (max-width:1800px){
+    .notify-background{
+        height: 77rem;
+    }
+    .not-2{
+        line-height: 9rem;
+    }
+    .not-text1{
+        padding-left: 3.7rem;
+    }
+    .notify-text{
+        padding: 12rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(5.2rem, 3vw + 1.2rem, 5.6rem);
+    }
+    .not-img{
+        top: 23.5%;
+    }
+    .blue-btn{
+        padding: 2rem 3.5rem;
+        font-size: 2.1rem;
+        line-height: 10rem;
+        border-radius: 3rem;
+    }
+    .overlay .share-form li a{
+        padding: 1.1rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 2.3rem;
+    }
+    .share-form p{
+        font-size: clamp(2.2rem, 2.5vw, 2.5rem);
+        line-height: 3.3rem;
+    }
+}
+@media only screen and (min-width:1801px) and (max-width:1900px){
+    .notify-background{
+        height: 77rem;
+    }
+    .not-2{
+        line-height: 9rem;
+    }
+    .not-text1{
+        padding-left: 3.7rem;
+    }
+    .notify-text{
+        padding: 12rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(5.4rem, 3vw + 1.2rem, 5.8rem);
+    }
+    .not-img{
+        top: 21%;
+    }
+    .blue-btn{
+        padding: 2rem 3.5rem;
+        font-size: 2.1rem;
+        line-height: 10rem;
+        border-radius: 3rem;
+    }
+    .overlay .share-form li a{
+        padding: 1.2rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 2.4rem;
+    }
+    .share-form p{
+        font-size: clamp(2.3rem, 2.5vw, 2.6rem);
+        line-height: 3.4rem;
+
+    }
+}
+@media only screen and (min-width:1901px){
+    .notify-background{
+        height: 85rem;
+    }
+    .not-2{
+        line-height: 9rem;
+        margin-top: 4rem;
+    }
+    .not-text1{
+        padding-left: 5rem;
+    }
+    .notify-text{
+        padding: 12rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(5.8rem, 3vw + 1.2rem, 6.3rem);
+    }
+    .not-img{
+        top: 22%;
+    }
+    .blue-btn{
+        padding: 2.2rem 4.4rem;
+        font-size: 2.1rem;
+        line-height: 15rem;
+        border-radius: 4rem;
+    }
+    .overlay .share-form li a{
+        padding: 1.3rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 2.5rem;
+    }
+    .share-form p{
+        font-size: clamp(2.4rem, 2.5vw, 2.7rem);
+        line-height: 3.5rem;
+    }
+}
+@media only screen and (max-width:1237px){
+    .not-2{
+        line-height: 6rem;
+    }
+    .notify-text{
+        padding: 9rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(3.8rem, 3vw + 1.2rem, 4.1rem);
+    }
+    .not-img{
+        top: 29.5%;
+    }
+    .blue-btn{
+        font-size: clamp(1.4rem, 1.8vw + 1rem, 1.7rem);
+        line-height: 9rem;
+    }
+    .notify-background{
+        height: 62rem;
+    }
+}
+@media only screen and (max-width:1155px){
+    .not-2{
+        line-height: 6rem;
+    }
+    .notify-text{
+        padding: 7rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(3.5rem, 3vw + 1.2rem, 3.8rem);
+    }
+    .not-img{
+        top: 27%;
+    }
+    .blue-btn{
+        font-size: clamp(1.25rem, 1.8vw + 1rem, 1.5rem);
+        line-height: 8rem;
+    }
+    .notify-background{
+        height: 60rem;
+    }
+    .overlay .share-form li a{
+        padding: .7rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.9rem;
+    }
+    .share-form p{
+        font-size: clamp(1.8rem, 2.5vw, 2.1rem);
+    }
+}
+@media only screen and (max-width:1098px){
+    .not-2{
+        line-height: 6rem;
+        margin-top: -1rem;
+    }
+    .notify-text{
+        padding: 7rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(3.35rem, 3vw + 1.2rem, 3.6rem);
+    }
+    .not-img{
+        top: 24.6%;
+    }
+    .blue-btn{
+        font-size: clamp(1.25rem, 1.8vw + 1rem, 1.5rem);
+        line-height: 7rem;
+    }
+    .navbar3{
+        height: 80px;
+    }
+    .logo1{
+        margin-top: -1rem;
+    }
+    .overlay .share-form li a{
+        padding: .6rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.8rem;
+    }
+    .share-form p{
+        font-size: clamp(1.9rem, 2.5vw, 2.2rem);
+    }
+    .overlay .share-form{
+        width: 65%;
+        left: 17.5%;
+    }
+    .notify-background{
+        height: 65rem;
+    }
+}
+@media only screen and (max-width:1011px){
+    .not-2{
+        line-height: 5rem;
+        margin-top: -2rem;
+    }
+    .notify-text{
+        padding: 9rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(3.2rem, 3vw + 1.2rem, 3.4rem);
+    }
+    .not-img{
+        top: 26%;
+    }
+}
+@media only screen and (max-width:976px){
+    .notify-text{
+        padding: 9rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: clamp(3rem, 3vw + 1.2rem, 3.2rem);
+    }
+    .not-text1{
+        padding-left: 2.7rem;
+        width: 59%;
+    }
+    .not-img{
+        top: 27%;
+        width: 41%;
+    }
+}
+@media only screen and (max-width:930px){
+    .not-img{
+        top: 28.5%;
+        width: 41%;
+    }
+    .overlay .share-form li a{
+        padding: .5rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.7rem;
+    }
+    .share-form p{
+        font-size: clamp(1.9rem, 2.5vw, 2.2rem);
+        line-height: 2rem; 
+    }
+    .overlay .share-form li a .li-img{
+        width: 14%;
+    }
+    
+}
+@media only screen and (max-width:912px){
+    .notify-text{
+        padding: 10rem 0 0 0;
+    }
+    .not-2{
+        line-height: 4.6rem;
+        margin-top: -3rem;
+    }
+    .not-text1 h1{
+        font-size: clamp(2.8rem, 3vw + 1.2rem, 3rem);
+    }
+    .not-text1{
+        padding-left: 2.7rem;
+        width: 59%;
+    }
+    .not-img{
+        top: 30%;
+        width: 40%;
+    }
+    .blue-btn{
+        line-height: 6rem;
+    }
+    
+}
+@media only screen and (max-width:853px){
+    .not-img{
+        top: 32%;
+        width: 40%;
+    }
+    .overlay .share-form li a{
+        padding: .4rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.6rem;
+    }
+    .share-form p{
+        font-size: clamp(1.7rem, 2.5vw, 2rem);
+        line-height: 2rem; 
+    }
+    .overlay .share-form{
+        width: 70%;
+        left: 15%;
+    }
+}
+@media only screen and (max-width:845px){
+    .notify-text{
+        padding: 9rem 0 0 0;
+    }
+    .not-2{
+        line-height: 4.6rem;
+        margin-top: -3rem;
+    }
+    .not-text1 h1{
+        font-size: clamp(2.65rem, 3vw + 1.2rem, 2.8rem);
+    }
+    .not-text1{
+        padding-left: 2.4rem;
+        width: 60%;
+    }
+    .not-img{
+        top: 28%;
+        width: 40%;
+        right: 3%;
+    }
+    .blue-btn{
+        line-height: 6rem;
+    }
+}
+@media only screen and (max-width:842px){
+    .notify-text{
+        padding: 9rem 0 0 0;
+    }
+    .not-2{
+        line-height: 4.6rem;
+        margin-top: -3rem;
+    }
+    .not-text1 h1{
+        font-size: clamp(2.6rem, 3vw + 1.2rem, 2.7rem);
+    }
+    .not-text1{
+        padding-left: 2.2rem;
+    }
+    .not-img{
+        top: 30%;
+    }
+    .blue-btn{
+        line-height: 6rem;
+    }
+}
+@media only screen and (max-width:811px){
+    .notify-text{
+        padding: 7rem 0 0 0;
+    }
+    .not-2{
+        line-height: 4.2rem;
+        margin-top: -3rem;
+    }
+    .not-text1 h1{
+        font-size: 2.45rem;
+    }
+    .not-text1{
+        padding-left: 2rem;
+        width: 59%;
+    }
+    .not-img{
+        top: 24%;
+        width: 41%;
+    }
+    .blue-btn{
+        line-height: 6rem;
+    }
+}
+@media only screen and (max-width:776px){
+    .not-img{
+        top: 27%;
+        width: 41%;
+    }
+}
+@media only screen and (max-width:755px){
+    .notify-text{
+        padding: 7rem 0 0 0;
+    }
+    .not-2{
+        line-height: 4rem;
+        margin-top: -4rem;
+    }
+    .not-text1 h1{
+        font-size: 2.35rem;
+    }
+    .not-img{
+        top: 30%;
+    }
+    .blue-btn{
+        line-height: 5rem;
+        padding: 1.4rem 2.5rem;
+        font-size: clamp(1.15rem, 1.8vw + 1rem, 1.35rem);
+    }
+    .overlay .share-form li a{
+        padding: .2rem;
+    }
+    .overlay .share-form li a{
+        padding: .3rem;
+    }
+    .overlay .share-form li a .li-img{
+        width: 14%;
+    }
+    .overlay .share-form li{
+        border-radius: 1.06rem;
+    }
+}
+@media only screen and (max-width:725px){
+    .notify-text{
+        padding: 6.8rem 0 0 0;
+    }
+    .not-text1 h1{
+        font-size: 2.25rem;
+    }
+    .not-img{
+        top: 32%;
+    }
+    .blue-btn{
+        line-height: 4.5rem;
+        padding: 1.3rem 2.4rem;
+    }
+    .overlay .share-form{
+        width: 75%;
+        left: 12.5%;
+    }
+    .overlay .share-form li a{
+        padding: .3rem;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.5rem;
+    }
+    .share-form p{
+        font-size: clamp(1.55rem, 2.5vw, 1.9rem);
+        line-height: 1.8rem; 
+    }
+    .overlay .share-form{
+        width: 70%;
+        left: 15%;
+    }
+}
+@media only screen and (max-width:698px){
+    .not-text1 h1{
+        font-size: 2.15rem;
+    }
+}
+@media only screen and (max-width:673px){
+    .not-text1 h1{
+        font-size: 2.1rem;
+    }
+    .not-text1{
+        padding-left: 1.5rem;
+    }
+    .not-img{
+        right: 2%;
+    }
+    .blue-btn{
+        line-height: 4rem;
+    }
+    .not-2{
+        line-height: 3.5rem;
+    }
+    .overlay .share-form{
+        width: 75%;
+        left: 12.5%;
+    }
+    .overlay .share-form li a{
+        padding: .2rem;
+    }
+    .overlay .share-form li a{
+        padding: .4rem;
+    }
+    .overlay .share-form li a .li-img{
+        width: 15%;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.3rem;
+    }
+    .share-form p{
+        font-size: 1.3rem;
+        line-height: 1.6rem; 
+    }
+    .overlay .share-form li{
+        border-radius: 1.06rem;
+    }
+}
+@media only screen and (max-width:638px){
+    .not-text1 h1{
+        font-size: 2rem;
+    }
+    .not-img{
+        top: 34%;
+        right: 2%;
+    }
+}
+@media only screen and (max-width:613px){
+    .not-text1 h1{
+        font-size: 1.85rem;
+    }
+    .not-2{
+        line-height: 3.1rem;
+    }
+    .overlay .share-form li a{
+        padding: .3rem;
+    }
+    .overlay .share-form li a .li-img{
+        width: 14%;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.3rem;
+    }
+    .share-form p{
+        font-size: 1.3rem;
+        line-height: 1.6rem; 
+    }
+    .overlay .share-form li{
+        border-radius: 1.06rem;
+    }
+    .overlay .share-form{
+        width: 73%;
+        left: 13.5%;
+    }
+}
+@media only screen and (max-width:575px){
+    .not-text1 h1{
+        font-size: 1.75rem;
+    }
+    .not-2{
+        line-height: 3.1rem;
+    }
+}
+@media only screen and (max-width:550px){
+    .navbar3{
+        height: 100px;
+        padding-top: 1rem;
+    }
+    .notify-text{
+        display: none;
+    }
+    .notify2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2rem;
+    }
+    .notify2 .not-img2{
+        position: relative;
+        width: 70%;
+        height: auto;
+    }
+    .notify2 .not-text1 h1{
+        text-align: center;
+        font-size: clamp(2.1875rem, 5.2vw + 1rem, 3.2rem);
+    }
+    .notify2 .not-text1{
+        padding-top: 3rem;
+        padding-left: 0;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .notify2 .not-2{
+        line-height: 4.5rem;
+    }
+    .notify-background{
+        height: 100%;
+    }
+    .notify2 .blue-btn{
+        padding: .2rem 2rem;
+        margin-bottom: 7rem;
+        font-size: 1.2rem;
+        margin-top: 3rem;
+    }
+    .overlay .share-form li a{
+        padding: .3rem;
+    }
+    .overlay .share-form li a .li-img{
+        width: 12%;
+    }
+    .overlay .share-form li a p{
+        font-size: 1.2rem;
+    }
+    .share-form p{
+        font-size: 1.2rem;
+        line-height: 1.5rem; 
+    }
+    .overlay .share-form{
+        width: 90%;
+        left: 5%;
+        top: 24.3%;
+        border-radius: 1.8rem;
+    }
+}
+@media only screen and (max-width:505px){
+    .notify2 .not-2{
+        line-height: 4.2rem;
+    }
+}
+@media only screen and (max-width:461px){
+    .notify2 .not-2{
+        line-height: 4rem;
+    }
+    .overlay .share-form li a{
+        padding: .3rem;
+    }
+    .overlay .share-form li{
+        border-radius: .8rem;
+    }
+    .overlay .share-form{
+        border-radius: 1.8rem;
+    }
+    .overlay .share-form li a .li-img{
+        width: 12%;
+    }
+    .overlay .share-form li a p{
+        font-size: 1rem;
+    }
+    .share-form p{
+        font-size: 1rem;
+        line-height: 1.4rem; 
+    }
+    .overlay .share-form{
+        width: 90%;
+        left: 5%;
+        top: 24.3%;
+    }
+}
+@media only screen and (max-width:427px){
+    .notify2 .not-2{
+        line-height: 3.8rem;
+    }
+}
+@media only screen and (max-width:405px){
+    .notify2 .not-2{
+        line-height: 3.5rem;
+    }
+}

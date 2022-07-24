@@ -1,0 +1,709 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+}
+.waitlist-contain{
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+.navbar3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding-right: 2rem;
+}
+.navbar3 .logo1 a{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+.navbar3 .logo1 a .img-logo1{
+    width: 90px;
+    height: 90px;
+}
+.navbar3 .logo1 a .img-logo1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.navbar3 .logo1 a .img-logo2{
+    width: 150px;
+    height: 150px;
+}
+.navbar3 .logo1 a .img-logo2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.waitlist-btn{
+    margin-top: 1.3rem;
+}
+.waitlist-btn a{
+    text-decoration: none;
+    color: #28256a;
+}
+.waitlist-background{
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    padding: 5rem 2rem;
+    position: relative;
+}
+.waitlist-background .wait-text{
+    width: 100%;
+    display: flex;
+    height: auto;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+}
+.wait-text h1{
+    color: #28256a;
+    letter-spacing: 1.4px;
+    line-height: 5.8rem;
+    font-size: clamp(3.55rem, 2.5vw + 1rem, 3.7rem);
+    font-weight: 800;
+}
+.wait-text .wait-img{
+    width: 33%;
+    height: auto;
+    position: absolute;
+    top: 40.3%;
+    left: 9.5%;
+    max-width: 100%;
+    height: auto; 
+}
+.wait-text .wait-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.wait-text .form-waitlist{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 61.7%;
+    height: 37rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    background: url("../images/bg\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    color: #8683A2;
+    padding: 2rem 0 0 0;
+}
+.text-box input{
+    width: 100%;
+    border: none;
+    color: #8683A2;
+    outline: none;
+    background: none;
+    font-size: clamp(1.2rem, 2vw + 1rem, 1.75rem);
+    padding-bottom: 1rem;
+}
+.text-box2{
+    padding-top: 3.2rem;
+}
+input::placeholder {
+    color: #8683A2;
+    opacity: 1;
+  }
+.text-box{
+    width: 90%;
+    border-bottom: 1px solid #5A5781;
+}
+.form-waitlist .form-btn{
+    text-decoration: none;
+    padding: 1.3rem 3.7rem;
+    background: #cedef0;
+    border-radius: 3rem;
+    color: #28256a;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.form-waitlist .form-btn p{
+    font-size: clamp(1.2rem, 1.8vw + 1rem, 1.6rem);
+}
+@media only screen and (min-width:1301px) and (max-width:1400px){
+    .wait-text h1{
+        font-size: clamp(3.7rem, 2.5vw + 1.1rem, 4.5rem);
+        line-height: 6.3rem;
+    }
+    .wait-text .form-waitlist{
+        height: 39rem;
+    }
+    .wait-text .wait-img{
+        top: 39.5%;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 170px;
+        height: 170px;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(1.5rem, 1.8vw + 1rem, 1.75rem);
+    }
+}
+@media only screen and (min-width:1350px) and (max-width:1400px){
+    .wait-text .wait-img{
+        top: 39.5%;
+    }
+}
+@media only screen and (min-width:1401px) and (max-width:1500px){
+    .wait-text h1{
+        font-size: clamp(4.15rem, 2.5vw + 1.1rem, 4.8rem);
+        line-height: 7rem;
+    }
+    .wait-text .form-waitlist{
+        height: 41rem;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 180px;
+        height: 180px;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 95px;
+        height: 95px;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(1.7rem, 1.8vw + 1rem, 2rem);
+    }
+    .form-waitlist .form-btn{
+        padding: 1.4rem 3.8rem;
+    }
+}
+@media only screen and (min-width:1450px) and (max-width:1500px){
+    .wait-text .wait-img{
+        top: 39.5%;
+    }
+}
+@media only screen and (min-width:1501px) and (max-width:1600px){
+    .wait-text .form-waitlist{
+        height: 44rem;
+    }
+    .wait-text h1{
+        font-size: clamp(4.35rem, 2.5vw + 1.1rem, 4.95rem);
+        line-height: 7.3rem;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 190px;
+        height: 190px;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 100px;
+        height: 100px;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(1.9rem, 1.8vw + 1rem, 2.1rem);
+    }
+    .form-waitlist .form-btn{
+        padding: 1.45rem 3.85rem;
+    }
+}
+@media only screen and (min-width:1550px) and (max-width:1600px){
+    .wait-text .form-waitlist{
+        height: 45rem;
+    }
+    .wait-text .wait-img{
+        top: 39.2%;
+    }
+}
+@media only screen and (min-width:1601px) and (max-width:1700px){
+    .wait-text .form-waitlist{
+        height: 47rem;
+    }
+    .wait-text h1{
+        font-size: clamp(4.7rem, 2.5vw + 1.1rem, 5.5rem);
+        line-height: 7.8rem;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 200px;
+        height: 200px;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 110px;
+        height: 110px;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(1.95rem, 1.8vw + 1rem, 2.15rem);
+    }
+    .form-waitlist .form-btn{
+        padding: 1.5rem 3.9rem;
+    }
+}
+@media only screen and (min-width:1650px) and (max-width:1700px){
+    .wait-text .form-waitlist{
+        height: 48rem;
+    }
+    .wait-text .wait-img{
+        top: 39%;
+    }
+}
+@media only screen and (min-width:1701px) and (max-width:1800px){
+    .wait-text .form-waitlist{
+        height: 49rem;
+    }
+    .wait-text h1{
+        font-size: clamp(5.1rem, 2.5vw + 1.1rem, 5.7rem);
+        line-height: 8.5rem;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 200px;
+        height: 200px;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 110px;
+        height: 110px;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(2rem, 1.8vw + 1rem, 2.2rem);
+    }
+    .form-waitlist .form-btn{
+        padding: 1.55rem 3.95rem;
+    }
+}
+@media only screen and (min-width:1750px) and (max-width:1800px){
+    .wait-text .form-waitlist{
+        height: 50rem;
+    }
+    .wait-text .wait-img{
+        top: 39%;
+    }
+}
+@media only screen and (min-width:1800px) and (max-width:1900px){
+    .wait-text .form-waitlist{
+        height: 53rem;
+    }
+    .wait-text h1{
+        font-size: clamp(5.3rem, 2.5vw + 1.1rem, 6rem);
+        line-height: 8.8rem;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 210px;
+        height: 210px;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 120px;
+        height: 120px;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(2.1rem, 1.8vw + 1rem, 2.3rem);
+    }
+    .form-waitlist .form-btn{
+        padding: 1.6rem 4rem;
+    }
+}
+@media only screen and (min-width:1850px) and (max-width:1900px){
+    .wait-text .form-waitlist{
+        height: 54rem;
+    }
+}
+@media only screen and (min-width:1901px){
+    .wait-text .form-waitlist{
+        height: 56rem;
+    }
+    .wait-text h1{
+        font-size: clamp(5.7rem, 2.5vw + 1.1rem, 6.3rem);
+        line-height: 9.5rem;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 215px;
+        height: 215px;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 125px;
+        height: 125px;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(2.15rem, 1.8vw + 1rem, 2.35rem);
+    }
+    .form-waitlist .form-btn{
+        padding: 1.6rem 4rem;
+    }
+}
+@media only screen and (max-width:1230px){
+    .wait-text .form-waitlist{
+        height: 36rem;
+    }
+    .wait-text h1{
+        font-size: clamp(3.4rem, 2.5vw + 1.1rem, 3.8rem);
+        line-height: 5.8rem;
+    }
+}
+@media only screen and (max-width:1185px){
+    .wait-text .form-waitlist{
+        height: 35.5rem;
+    }
+    .wait-text h1{
+        font-size: clamp(3.3rem, 2.5vw + 1.1rem, 3.7rem);
+        line-height: 5.6rem;
+    }
+}
+@media only screen and (max-width:1160px){
+    .wait-text .wait-img{
+        top: 41%;
+    }
+    .wait-text h1{
+        font-size: clamp(3.2rem, 2.5vw + 1.1rem, 3.6rem);
+        line-height: 5.5rem;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2.7rem;
+    }
+}
+@media only screen and (max-width:1131px){
+    .wait-text .wait-img{
+        top: 41%;
+    }
+    .wait-text h1{
+        font-size: clamp(3.15rem, 2.5vw + 1.1rem, 3.55rem);
+        line-height: 5.4rem;
+    }
+}
+@media only screen and (max-width:1109px){
+    .wait-text .wait-img{
+        top: 41.2%;
+    }
+    .wait-text h1{
+        font-size: clamp(3.1rem, 2.5vw + 1.1rem, 3.5rem);
+        line-height: 5.3rem;
+    }
+}
+@media only screen and (max-width:1083px){
+    .wait-text .wait-img{
+        top: 41.5%;
+    }
+    .wait-text h1{
+        font-size: clamp(3rem, 2.5vw + 1.1rem, 3.4rem);
+        line-height: 5.2rem;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2.6rem;
+    }
+}
+@media only screen and (max-width:1059px){
+    .wait-text .wait-img{
+        top: 41.5%;
+    }
+    .wait-text h1{
+        font-size: clamp(2.9rem, 2.5vw + 1.1rem, 3.3rem);
+        line-height: 5.1rem;
+    }
+}
+@media only screen and (max-width:1031px){
+    .wait-text .wait-img{
+        top: 7%;
+        width: 31%;
+        left: 11%;
+    }
+    .wait-text h1{
+        font-size: clamp(3.1rem, 2.5vw + 1.1rem, 3.8rem);
+        line-height: 5.1rem;
+        padding-top: 11rem;
+    }
+    .text-box2{
+        padding-top: 0;
+        margin-top: -2rem;
+    }
+    .text-box1{
+        padding-top: 0rem;
+        line-height: 2rem;
+        margin-top: -2rem;
+    }
+    .text-box{
+        width: 82%;
+    }
+    .form-waitlist .form-btn{
+        padding: 1.8rem 3.2rem;
+        border-radius: 2.1875rem;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(1.2rem, 2vw + 1rem, 1.5rem);
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 70px;
+        height: 70px;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2.5rem;
+    }
+}
+@media only screen and (max-width:975px){
+    .wait-text .wait-img{
+        width: 31%;
+        left: 10.5%;
+        top: 5%;
+    }
+    .wait-text h1{
+        font-size: clamp(3rem, 2.5vw + 1.1rem, 3.6rem);
+        line-height: 4.5rem;
+        padding-top: 7.8rem;
+        font-weight: 700;
+    }
+    .wait-text .form-waitlist{
+        height: 33rem;
+    }
+}
+@media only screen and (max-width:926px){
+    .wait-text .wait-img{
+        width: 31%;
+        top: 7%;
+        left: 8%;
+    }
+    .wait-text .form-waitlist{
+        height: 32.5rem;
+        width: 65%;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2.4rem;
+    }
+}
+@media only screen and (max-width:877px){
+    .wait-text .wait-img{
+        width: 31%;
+        top: 9.2%;
+        left: 8%;
+    }
+    .wait-text .form-waitlist{
+        height: 32rem;
+        width: 65%;
+    }
+}
+@media only screen and (max-width:820px){
+    .wait-text .form-waitlist{
+        height: 31rem;
+        width: 65%;
+    }
+    .form-waitlist .form-btn{
+        padding: 1.7rem 3.2rem;
+        border-radius: 2rem;
+    }
+}
+@media only screen and (max-width:793px){
+    .wait-text .wait-img{
+        width: 31%;
+        top: 8%;
+    }
+    .wait-text h1{
+        font-size: clamp(2.6rem, 2.5vw + 1.1rem, 2.88rem);
+        line-height: 4rem;
+        padding-top: 5.7rem;
+    }
+    .wait-text .form-waitlist{
+        height: 28.5rem;
+    }
+    .form-waitlist .form-btn{
+        padding: 1.6rem 3.1rem;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2.3rem;
+    }
+}
+@media only screen and (max-width:716px){
+    .wait-text .wait-img{
+        width: 31.5%;
+    }
+    .wait-text h1{
+        font-size: clamp(2.4rem, 2.5vw + 1.1rem, 2.7rem);
+        line-height: 3.5rem;
+        padding-top: 5.5rem;
+    }
+    .wait-text .form-waitlist{
+        height: 26rem;
+    }
+    .form-waitlist .form-btn{
+        padding: 1.6rem 2.8rem;
+        border-radius: 1.8rem;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2.2rem;
+    }
+}
+@media only screen and (max-width:669px){
+    .wait-text h1{
+        font-size: clamp(2.3rem, 2.5vw + 1.1rem, 2.5rem);
+        padding-top: 5.2rem;
+    }
+    .wait-text .form-waitlist{
+        height: 25rem;
+    }
+}
+@media only screen and (max-width:629px){
+    .wait-text h1{
+        font-size: clamp(2.2rem, 2.5vw + 1.1rem, 2.4rem);
+        padding-top: 5.2rem;
+    }
+    .wait-text .form-waitlist{
+        height: 23rem;
+    }
+    .waitlist-background{
+        padding: 6rem 1.5rem
+    }
+    .form-waitlist .form-btn{
+        padding: 1.6rem 2.8rem;
+        border-radius: 1.8rem;
+    }
+}
+@media only screen and (max-width:587px){
+    .wait-text h1{
+        font-size: clamp(2.1rem, 2.5vw + 1.1rem, 2.3rem);
+        padding-top: 3.5rem;
+        line-height: 3rem;
+    }
+    .wait-text .form-waitlist{
+        height: 22.5rem;
+    }
+    .form-waitlist .form-btn{
+        padding: 1.6rem 2.6rem;
+        border-radius: 1.8rem;
+    }
+}
+@media only screen and (max-width:551px){
+    .waitlist-background .wait-text{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wait-text .wait-img{
+        position: relative;
+        width: 70%;
+        left: 0;
+    }
+    .wait-text h1{
+        font-size: clamp(3.2rem, 2.5vw + 1.1rem, 4rem);
+        padding-top: 0;
+        text-align: center;
+        line-height: 5.5rem;
+    }
+    .waitlist-background{
+        padding: 3rem 2rem;
+    }
+    .navbar3 .logo1 a{
+        padding-top: -1rem;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 60px;
+        height: 60px;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 120px;
+        height: 120px;
+    }
+    .navbar3{
+        height: 80px;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    .waitlist-btn{
+        margin-top: 1.3rem;
+    }
+    .wait-text .form-waitlist{
+        width: 97%;
+        height: 29rem;
+    }
+    .form-waitlist .form-btn{
+        padding: 1.5rem 4rem;
+        border-radius: 2.2rem;
+    }
+    .form-waitlist .form-btn p{
+        font-size: clamp(1rem, 2vw + 1rem, 1.2rem);
+    }
+}
+@media only screen and (max-width:520px){
+    .wait-text .form-waitlist{
+        height: 27rem;
+    }
+    .text-box input{
+        font-size: clamp(1rem, 2vw + 1rem, 1.3rem);
+        padding-bottom: 1rem;
+    } 
+}
+@media only screen and (max-width:488px){
+    .wait-text .form-waitlist{
+        height: 25rem;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 50px;
+        height: 50px;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 105px;
+        height: 105px;
+    }
+}
+@media only screen and (max-width:443px){
+    .wait-text .form-waitlist{
+        height: 22.5rem;
+    }
+    .wait-text h1{
+        font-size: clamp(2.8rem, 2.5vw + 1.1rem, 3.2rem);
+        line-height: 4.3rem;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2.1rem;
+    }
+}
+@media only screen and (max-width:405px){
+    .wait-text .form-waitlist{
+        height: 20.5rem;
+    }
+    .wait-text h1{
+        line-height: 4.1rem;
+    }
+    .form-waitlist .form-btn{
+        padding: 1.2rem 3.5rem;
+    }
+}
+@media only screen and (max-width:381px){
+    .wait-text .form-waitlist{
+        height: 19rem;
+    }
+    .wait-text h1{
+        font-size: clamp(2.8rem, 2.5vw + 1.1rem, 3.2rem);
+        line-height: 4.1rem;
+    }
+    .form-waitlist .form-btn{
+        padding: 1rem 2.7rem;
+    }
+    .text-box input{
+        font-size: 1rem;
+    } 
+    .wait-text .form-waitlist{
+        border-radius: 2rem;
+    }
+}
+@media only screen and (max-width:360px){
+    .wait-text .form-waitlist{
+        height: 18rem;
+    }
+    .wait-text h1{
+        font-size: clamp(2.8rem, 2.5vw + 1.1rem, 3.2rem);
+        line-height: 4.1rem;
+    }
+    .form-waitlist .form-btn{
+        padding: 1rem 2.5rem;
+    }
+    .wait-text .form-waitlist{
+        border-radius: 2rem;
+    }
+}
+@media only screen and (max-width:340px){
+    .navbar3{
+        padding-left: 3rem;
+    }
+    .navbar3 .logo1 a .img-logo1{
+        width: 40px;
+        height: 40px;
+    }
+    .navbar3 .logo1 a .img-logo2{
+        width: 95px;
+        height: 95px;
+    }
+}
+

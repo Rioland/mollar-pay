@@ -1,0 +1,1957 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+.contain{
+    width: 100%;
+    height: 100%;
+    max-width: 1950px;
+    position: relative;
+    background-color: #ffffff;
+}
+p{
+    font-size: clamp(1.4rem, 1.8vw, 1.8rem);
+    line-height: 2.3rem;
+    width: 100%;
+    min-width: 100%;
+}
+.back-image{
+    background: url("../images/new.jpg");
+    width: 100%;
+    height: 39rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    margin-top: -1.3rem;
+}
+.navbar2 .logo1{
+    width: 150px;
+    height: 150px;
+    z-index: 2;
+}
+.logo1 a{
+    margin-top: 2rem;
+    justify-content: space-around;
+}
+.logo1:not(:last-child){
+    margin-left: 1rem;
+}
+.logo1 a img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+.navbar2 .waitlist-btn{
+    z-index: 2;
+    color: white;
+    border: 2px solid #fff;
+    font-size: 1.1rem;
+    letter-spacing: .6px;
+    padding: .75rem 2.5rem;
+}
+.hero-div{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-div .hero-text{
+    padding-left: 3rem;
+    text-align: justify;
+    width: 53%;
+    margin-top: -2rem;
+}
+.hero-text h1{
+    font-size: clamp(3.7rem, 1.8vw, 5rem);
+    z-index: 2;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 5rem;
+    text-align: justify;
+}
+.hero-text p{
+    color: #fff;
+    margin-top: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 100%;
+    min-width: 100%;
+    text-align: justify;
+    word-spacing: 3px;
+}
+.hero-img{
+    width: 40%;
+    height: 24rem;
+    margin-top: 2.3rem;
+    margin-right: 3rem;
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    z-index: 2;
+}
+.second-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 32rem;
+    background-color: #ffffff;
+}
+.second-hero .second-hero-text{
+    width: 46.5%;
+    text-align: justify;
+    margin-top: -4rem;
+    padding-right: 3rem;
+}
+.second-hero-text p{
+    width: 100%;
+    color: #28256A;
+    margin-top: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 100%;
+    min-width: 100%;
+    text-align: justify;
+}
+.second-hero-text h1{
+    font-size: clamp(3.7rem, 1.8vw, 5.1rem);
+    z-index: 2;
+    color: #28256A;
+    letter-spacing: 1px;
+    line-height: 3.95rem;
+}
+.second-hero .second-hero-img{
+    width: 53%;
+    height: 22rem;
+    margin-top: -1rem;
+    padding-left: 7rem;
+}
+.second-hero-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.third-hero{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-bottom: 4rem;
+}
+.third-hero-img{
+    background: url("../images/rsz_11bg_1.jpg");
+    width: 100%;
+    height: 35rem;
+    background-position: center;
+    background-size: cover;
+}
+.third-hero-img .hero-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0;
+}
+.third-hero .hero-text h1{
+    font-size: clamp(3.3rem, 1.8vw, 5.1rem);
+}
+.third-hero-img .hero-text p{
+    width: 100%;
+    text-align: justify;
+    letter-spacing: .1px;
+    word-spacing: 0px;
+    min-width: 100%;
+}
+.third-hero-img .hero-text{
+    width: 43.5%;
+}
+.third-hero-img .third-text{
+    margin-top: .1rem;
+}
+.third-hero-img .hero-img{
+    width: 47%;
+    margin-right: 9%;
+}
+.fourth-hero{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    height: 30rem;
+    background: url("../images/bg\ \(1\).jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 2.5rem;
+    margin-bottom: 3rem;
+}
+.fourth-back{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 100%;
+}
+.fourth-back .fourth-text{
+    width: 53%;
+    margin: 3.6rem 2.7rem;
+}
+.fourth-back .fourth-text h1{
+    font-size: clamp(3.3rem, 1.8vw, 5.1rem);
+    z-index: 2;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 4.4rem;
+    text-align: justify;
+    min-width: 100%;
+}
+.fourth2{
+    display: none;
+}
+.fourth-back .fourth-text p{
+    color: #fff;
+    margin-top: 2.4rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 85%;
+    max-width: 85%;
+    min-width: 85%;
+    text-align: justify;
+}
+.fourth-img{
+    width: 38%;
+    height: 35rem;
+    margin-top: -2rem;
+    margin-right: 2%;
+}
+.fourth-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.fourth-text .waitlist-btn{
+    color: #fff;
+    border: 2px solid #fff;
+    line-height: 6rem;
+    font-weight: normal;
+}
+.hero-text2{
+    display: none;
+}
+.second-hero h1{
+    display: none;
+}
+.third-hero-img h1{
+    display: none;
+}
+.second-hero .second-hero-text h1{
+    display: block;
+}
+.third-hero-img .hero-text h1{
+    display: block;
+}
+.p-two{
+    display: none;
+}
+
+
+
+
+
+
+@media only screen and (min-width:1311px){
+    .third-hero-img .hero-text{
+        width: 43.5%;
+    }
+    .third-hero-img .third-text{
+        margin-top: .1rem;
+    }
+    .third-hero-img .hero-img{
+        width: 48%;
+        margin-right: 8%;
+    }
+}
+@media only screen and (min-width:1341px){
+    p{
+        font-size: clamp(1.5rem, 1.8vw, 1.9rem);
+        line-height: 2.65rem;
+    }
+    .navbar2 .logo1{
+        width: 180px;
+        height: 180px;
+    }
+    .back-image{
+        height: 45rem;
+    }
+    .second-hero{
+        height: 34rem;
+    }
+    .second-hero-text{
+        padding-top: 3rem;
+    }
+    .second-hero .second-hero-img{
+        height: 26rem;
+        margin-top: .7rem;
+        padding-left: 1.5rem;
+    }
+    .third-hero-img{
+        height: 37rem;
+    }
+    .fourth-hero{
+        height: 33rem;
+    }
+}
+@media only screen and (min-width:1352px){
+    .hero-div .hero-text{
+        width: 53%;
+    }
+    .hero-img{
+        width: 43%;
+    }
+    .second-hero .second-hero-text{
+        width: 48%;
+    }
+    .second-hero .second-hero-img{
+        width: 52%;
+        height: 23.5rem;
+        margin-top: 3rem;
+        padding-left: 7rem;
+    }
+    .third-hero-img .hero-text{
+        width: 44.7%;
+    }
+    .third-hero-img .third-text{
+        margin-top: .1rem;
+    }
+    .third-hero-img .hero-img{
+        width: 46.5%;
+        margin-right: 8%;
+    }
+    .second-hero-text h1{
+        margin-top: -4rem;
+    }
+    .second-hero .second-hero-img{
+        margin-top: -1.5rem;
+    }
+    p{
+        font-size: clamp(1.6rem, 1.8vw, 1.9rem);
+        line-height: 2.6rem;
+    }
+    .hero-text h1{
+        font-size: clamp(3.7rem, 1.8vw, 5rem);
+    }
+    .second-hero-text h1{
+    font-size: clamp(3.6rem, 1.8vw, 5.1rem);
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(3.3rem, 1.8vw, 5.1rem);
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(3.4rem, 1.8vw, 5.1rem);
+    }
+    .fourth-back .fourth-text{
+        width: 54%;
+    }
+    .back-image{
+        height: 45.5rem;
+    }
+    .second-hero{
+        height: 38rem;
+    }
+    .third-hero-img{
+        height: 38.4rem;
+    }
+    .hero-img{
+        height: 27rem;
+    }
+    .fourth-back .fourth-text{
+        margin: 4rem 2.7rem;
+    }
+}
+@media only screen and (min-width:1380px){
+    .hero-div .hero-text{
+        width: 53%;
+    }
+    .hero-img{
+        width: 43%;
+    }
+    .third-hero-img .hero-text{
+        width: 44%;
+    }
+    .third-hero-img .third-text{
+        margin-top: .1rem;
+    }
+    .third-hero-img .hero-img{
+        width: 46.5%;
+        margin-right: 8%;
+    }
+    .second-hero .second-hero-text{
+        width: 47%;
+    }
+    .second-hero .second-hero-img{
+        width: 53%;
+        padding-left: 8rem;
+    }
+}
+@media only screen and (min-width:1402px){
+    .hero-div .hero-text{
+        width: 52%;
+    }
+    .hero-img{
+        width: 42%;
+    }
+    .third-hero-img .hero-text{
+        width: 43.5%;
+    }
+    .third-hero-img .hero-img{
+        width: 45.5%;
+        margin-right: 8%;
+    }
+    .fourth-back .fourth-text{
+        width: 52%;
+    }
+    .second-hero .second-hero-text{
+        width: 46%;
+    }
+    .second-hero .second-hero-img{
+        width: 53%;
+        padding-left: 9rem;
+    }
+}
+@media only screen and (min-width:1418px){
+    .hero-div .hero-text{
+        width: 52%;
+    }
+    .hero-img{
+        width: 42%;
+    }
+    .third-hero-img .hero-text{
+        width: 43%;
+    }
+    .third-hero-img .hero-img{
+        width: 47%;
+        margin-right: 9%;
+    }
+    p{
+        line-height: 2.65rem;
+    }
+    .fourth-hero{
+        height: 35rem;
+    }
+    .fourth-back .fourth-text{
+        margin: 5rem 2.7rem;
+    }
+}
+@media only screen and (min-width:1500px){
+    p{
+        line-height: 2.68rem;
+    }
+    .hero-img{
+        height: 28rem;
+    }
+    .fourth-back .fourth-text{
+        margin: 6rem 2.7rem;
+    }
+    .fourth-hero{
+        height: 37rem;
+    }
+}
+@media only screen and (min-width:1551px){
+    .second-hero .second-hero-text{
+        width: 45%;
+    }
+    .second-hero .second-hero-img{
+        width: 55%;
+        padding-left: 11rem;
+        height: 26rem;
+    } 
+    .hero-div .hero-text{
+        width: 51%;
+    }
+    .third-hero-img .hero-text{
+        width: 42.5%;
+    }
+    .third-hero-img .hero-img{
+        width: 47%;
+        margin-right: 10%;
+    }
+    .hero-text h1{
+        font-size: clamp(3.8rem, 1.8vw, 5rem);
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(3.5rem, 1.8vw, 5.1rem);
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(3.8rem, 1.8vw, 5.1rem);
+    }
+    .second-hero-text h1{
+        font-size: clamp(3.6rem, 1.8vw, 5.1rem);
+    }
+}
+@media only screen and (min-width:1600px){
+    p{
+        line-height: 2.8rem;
+    }
+    .back-image{
+        height: 46rem;
+    }
+    .second-hero{
+        height: 41rem;
+    }
+    .third-hero-img{
+        height: 39rem;
+    }
+    .fourth-hero{
+        height: 39rem;
+    }
+}
+@media only screen and (min-width:1692px){
+    .fourth-back .fourth-text{
+        width: 50%;
+    }
+    .hero-div .hero-text{
+        width: 50%;
+    }
+    .hero-img{
+        width: 50%;
+    }
+    p{
+        font-size: clamp(1.7rem, 1.8vw, 1.95rem);
+        line-height: 2.96rem;
+    }
+    .third-hero-img .hero-text{
+        width: 42%;
+    }
+    .third-hero-img .hero-img{
+        width: 45.5%;
+        margin-right: 12%;
+    }
+    .second-hero .second-hero-text{
+        width: 44%;
+    }
+    .second-hero .second-hero-img{
+        width: 56%;
+        padding-left: 14rem;
+        height: 28rem;
+    } 
+    .back-image{
+        height: 47rem;
+    }
+    .third-hero-img{
+        height: 41.5rem;
+    }
+    .fourth-back .fourth-text{
+        margin: 8rem 2.7rem;
+    }
+}
+@media only screen and (min-width:1750px){
+    p{
+        line-height: 3rem;
+        font-size: clamp(1.75rem, 1.82vw, 2rem);
+    } 
+    .fourth-hero{
+        height: 42rem;
+    }
+}
+@media only screen and (min-width:1800px){
+    p{
+        font-size: clamp(1.9rem, 1.8vw, 2.1rem);
+        line-height: 3.2rem;
+    } 
+    .back-image{
+        height: 48rem;
+    }
+    .second-hero{
+        height: 43rem;
+    }
+    .third-hero-img{
+        height: 42rem;
+    }
+}
+@media only screen and (min-width:1212px) and (max-width:1258px){
+    .hero-text h1{
+        font-size: clamp(3.2rem, 1.8vw, 3.5rem);
+    }
+    .second-hero-text h1{
+    font-size: clamp(3.2rem, 1.8vw, 3.5rem);
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(3rem, 1.8vw, 3.3rem);
+    }
+    .third-hero-img{
+        height: 33rem;
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(3.1rem, 1.8vw, 3.35rem);
+    }
+    p{
+        font-size: clamp(1.3rem, 1.8vw, 1.35rem);
+        line-height: 2.2rem;
+    }
+    .hero-div .hero-text{
+        width: 52%;
+    }
+    .second-hero .second-hero-text{
+        width: 45.5%;
+    }
+    .second-hero .second-hero-img{
+        width: 52%;
+        height: 22rem;
+        padding-left: 7rem;
+    }
+    .third-hero-img .hero-text{
+        width: 42.7%;
+    }
+    .third-hero-img .hero-img{
+        width: 44%;
+        margin-right: 12%;
+    }
+    .fourth-back .fourth-text{
+        width: 51%;
+    }
+    
+}
+@media only screen and (min-width:1238px) and (max-width:1258px){
+    .third-hero-img .hero-text{
+        width: 42%;
+    }
+    .third-hero-img .hero-img{
+        width: 45%;
+        margin-right: 13%;
+    }
+}
+@media only screen and (min-width:1100px) and (max-width:1211px){
+    .hero-text h1{
+        font-size: clamp(3rem, 1.8vw, 3.2rem);
+        line-height: 3.8rem;
+    }
+    .second-hero-text h1{
+        font-size: clamp(3rem, 1.8vw, 3.2rem);
+        line-height: 3.6rem;
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(2.75rem, 1.8vw, 2.9rem);
+    }
+    .third-hero-img{
+        height: 33rem;
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(2.9rem, 1.8vw, 3.1rem);
+        line-height: 3.7rem;
+    }
+    p{
+        font-size: clamp(1.25rem, 1.8vw, 1.35rem);
+        line-height: 2.1rem;
+    }
+    .hero-div .hero-text{
+        width: 51.5%;
+    }
+    .second-hero .second-hero-text{
+        width: 47%;
+    }
+    .second-hero{
+        height: 31rem;
+    }
+    .third-hero-img .hero-text{
+        width: 43.5%;
+    }
+    .third-hero-img .hero-img{
+        width: 45.5%;
+        margin-right: 11%;
+    }
+    .back-image{
+        height: 37rem;
+    }
+    .third-hero-img{
+        height: 31rem;
+    }
+}
+@media only screen and (min-width:1175px) and (max-width:1211px){
+    .third-hero-img .hero-text{
+        width: 36%;
+    }
+    .third-hero-img .hero-img{
+        width: 50%;
+        margin-right: 14%;
+    }
+    .hero-div .hero-text{
+        width: 51%;
+    }
+}
+@media only screen and (min-width:1090px) and (max-width:1174px){
+    .hero-text h1{
+        font-size: clamp(2.9rem, 1.8vw, 3.1rem);
+        line-height: 3.7rem;
+    }
+    .second-hero-text h1{
+        font-size: clamp(2.9rem, 1.8vw, 3.1rem);
+        line-height: 3.6rem;
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(2.7rem, 1.8vw, 2.8rem);
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(2.8rem, 1.8vw, 2.95rem);
+        line-height: 3.7rem;
+
+    }
+    p{
+        font-size: clamp(1.25rem, 1.8vw, 1.3rem);
+        line-height: 2.05rem;
+    }
+    .hero-div .hero-text{
+        width: 54%;
+    }
+    .second-hero .second-hero-text{
+        width: 47.3%;
+    }
+    .second-hero .second-hero-img{
+        width: 52%;
+        height: 22rem;
+        padding-left: 6rem;
+        padding-right: 1rem;
+    }
+    .third-hero-img .hero-text{
+        width: 44%;
+    }
+    .third-hero-img .hero-img{
+        width: 45%;
+        margin-right: 11%;
+    }
+    .fourth-back .fourth-text{
+        width: 53%;
+    }
+    .back-image{
+        height: 35.5rem;
+    }
+}
+@media only screen and (min-width:1162px) and (max-width:1174px){
+    .third-hero-img .hero-text{
+        width: 43.5%;
+    }
+    .third-hero-img .hero-img{
+        width: 46.5%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (max-width:1095px){
+    .third-hero-img .hero-text{
+        width: 44.5%;
+    }
+    .third-hero-img .hero-img{
+        width: 46%;
+        margin-right: 10%;
+    }
+    .third-hero-img{
+        height: 30rem;
+    }
+    .hero-img{
+        height: 23rem;
+    }
+    .back-image{
+        height: 35.5rem;
+    }
+    .hero-text h1{
+        font-size: clamp(2.8rem, 1.8vw, 3rem);
+        line-height: 3.6rem;
+    }
+    .second-hero .second-hero-text h1{
+        font-size: clamp(2.8rem, 1.8vw, 3rem);
+        line-height: 3.5rem;
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(2.6rem, 1.8vw, 2.7rem);
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(2.7rem, 1.8vw, 2.9rem);
+        line-height: 3.4rem;
+    }
+    p{
+        font-size: clamp(1.2rem, 1.8vw, 1.25rem);
+        line-height: 2rem;
+    }
+    .second-hero{
+        height: 30rem;
+    }
+    .second-hero .second-hero-text{
+        width: 48%;
+    }
+    .second-hero .second-hero-img{
+        width: 51%;
+        height: 22rem;
+        padding-right: 1rem;
+    }
+    .fourth-back .fourth-text{
+        width: 56%;
+    }
+    .fourth-hero{
+        height: 28rem;
+    }
+    
+}
+@media only screen and (max-width:1049px){
+    p{
+        font-size: clamp(1.15rem, 1.8vw, 1.25rem);
+        line-height: 1.9rem;
+    }
+    .second-hero .second-hero-text{
+        width: 49%;
+    }
+    .second-hero .second-hero-img{
+        width: 51%;
+        height: 24rem;
+        padding-left: 0;
+        padding-right: 1rem;
+
+    }
+    .hero-text h1{
+        line-height: 3.6rem;
+    }
+    .second-hero-text h1{
+        line-height: 3.6rem;
+    }
+    .third-hero-img{
+        height: 29.5rem;
+    }
+    .fourth-back .fourth-text h1{
+        line-height: 3.7rem;
+    }
+    .fourth-back .fourth-text{
+        width: 59%;
+    }
+    
+    .fourth-hero{
+        height: 27rem;
+    }
+    .hero-div .hero-text{
+        width: 56%;
+    }
+    .third-hero-img .hero-text{
+        width: 45%;
+    }
+    .third-hero-img .hero-img{
+        width: 45%;
+        margin-right: 10%;
+    }
+    
+}
+@media only screen and (max-width:1031px){
+    .second-hero .second-hero-text{
+        width: 47%;
+        padding-right: .3rem;
+    }
+    .second-hero .second-hero-img{
+        width: 48%;
+        height: 18rem;
+        padding-left: 3rem;
+    }
+    .hero-img{
+        height: 19rem;
+        margin-top: -2rem;
+    }
+    .back-image{
+        background: url("../images/bg\ \(1\).jpg");
+        width: 100%;
+        height: 34rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .third-hero-img{
+        background: url("../images/bg\ \(1\).jpg");
+        width: 100%;
+        height: 30rem;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .third-hero-img .hero-text{
+        width: 45%;
+    }
+    .third-hero-img .hero-img{
+        width: 50%;
+        margin-left: 4%;
+    }
+    .hero-div .hero-text{
+        padding-left: 2rem;
+        width: 53%;
+    }
+    .fourth-back .fourth-text{
+        width: 52%;
+    }
+    .p-two{
+        display: block;
+    }
+    .p-one{
+        display: none;
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(2.6rem, 1.8vw, 2.9rem);
+    }
+}
+@media only screen and (max-width:1022px){
+    .second-hero .second-hero-text{
+        width: 47%;
+        padding-right: .1rem;
+    }
+    .second-hero .second-hero-img{
+        width: 47%;
+        padding-left: 2rem;
+    }
+    .second-hero{
+        height: 27rem;
+    }
+    .third-hero-img .hero-text{
+        width: 45%;
+    }
+    .third-hero-img .hero-img{
+        width: 51%;
+        margin-right: 4%;
+    }
+    .fourth-hero{
+        height: 27rem;
+    }
+    .third-hero-img{
+        height: 29rem;
+    }
+}
+@media only screen and (max-width:1003px){
+    .second-hero .second-hero-text{
+        width: 48%;
+    }
+    .second-hero .second-hero-img{
+        width: 46%;
+        padding-left: 1rem;
+    }
+    .third-hero-img .hero-text{
+        width: 45.5%;
+    }
+    .third-hero-img .hero-img{
+        width: 50.5%;
+        margin-right: 4%;
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(2.5rem, 1.8vw, 2.7rem);
+    }
+}
+@media only screen and (max-width:988px){
+    .third-hero-img .hero-text{
+        width: 47%;
+    }
+    .third-hero-img .hero-img{
+        width: 49%;
+        margin-right: 4%;
+    }
+    .second-hero .second-hero-text{
+        width: 49%;
+    }
+    .second-hero .second-hero-text h1{
+        line-height: 3.4rem;
+    }
+    .second-hero .second-hero-img{
+        width: 45%;
+        margin-top: -3rem;
+        padding-left: 1rem;
+    }
+    .fourth-back .fourth-text{
+        width: 56%;
+    }
+    .hero-img{
+        margin-top: -1rem;
+    }
+    .hero-text h1{
+        line-height: 4rem;
+    }
+    .hero-div .hero-text{
+        margin-top: -4rem;
+    }
+    .second-hero{
+        height: 30rem;
+    }
+    .fourth-hero{
+        margin-bottom: 0;
+    }
+    .hero-div .hero-text{
+        margin-top: .5rem;
+    }
+    .back-image{
+        height: 37rem;
+    }
+    .third-hero-img{
+        height: 30rem;
+    }
+    .fourth-back .fourth-text{
+        width: 53%;
+        margin: 3.6rem 2.2rem;
+    }
+}
+@media only screen and (max-width:953px){
+    .third-hero-img .hero-text{
+        width: 40%;
+    }
+    .third-hero-img .hero-img{
+        width: 51%;
+        margin-right: 8%;
+    }
+    .third-hero-img{
+        height: 29rem;
+    }
+    .hero-div .hero-text{
+        width: 58%;
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(2.2rem, 1.8vw, 2.4rem);
+        line-height: 3rem;
+    }
+    .fourth-back .fourth-text{
+        margin-top: 4rem;
+        width: 60%;
+    }
+    .fourth-back .fourth-text p{
+        margin-top: 1rem;
+    }
+    .fourth-img{
+        margin-top: -3.5rem;
+    }
+    .fourth-hero{
+        height: 24rem;
+    }  
+    .second-hero{
+        height: 30rem;
+    }
+    .hero-text h1{
+        line-height: 3.5rem;
+    }
+    .second-hero-text h1{
+        line-height: 3.4rem;
+    }
+    .back-image{
+        height: 36rem;
+    }
+}
+@media only screen and (max-width:928px){
+    .second-hero .second-hero-text{
+        width: 53%;
+    }
+    .second-hero .second-hero-img{
+        width: 44%;
+    }
+    .fourth-back .fourth-text{
+        margin-top: 4rem;
+        width: 56%;
+    }
+    .fourth-img{
+        margin-top: -4rem;
+        position: absolute;
+        right: 8%;
+        width: 32%;
+    }
+    .third-hero-img .hero-text{
+        width: 40%;
+    }
+    .third-hero-img .hero-img{
+        width: 55%;
+        margin-left: 5%;
+    }
+    .hero-div .hero-text{
+        width: 69%;
+    }
+}
+@media only screen and (max-width:906px){
+    .second-hero .second-hero-text{
+        width: 56%;
+        padding-right: 1rem;
+    }
+    .second-hero .second-hero-img{
+        width: 42%;
+    }
+    .second-hero{
+        height: 27rem;
+    }
+    .third-hero-img .hero-text{
+        width: 52%;
+    }
+    .third-hero-img .hero-img{
+        width: 41%;
+        margin-right: 6%;
+    }
+}
+@media only screen and (max-width:872px){
+    p{
+        font-size: clamp(1.1rem, 1.7vw, 1.15rem);
+        line-height: 1.95rem;
+    }
+    .hero-text h1{
+        font-size: clamp(2.2rem, 1.8vw, 2.3rem);
+        line-height: 3rem;
+    }
+    .second-hero .second-hero-text h1{
+        font-size: clamp(2.2rem, 1.8vw, 2.3rem);
+        line-height: 2.6rem;
+        margin-top: 1.3rem;
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(2rem, 1.8vw, 2.3rem);
+    }
+    .hero-div .hero-text{
+        width: 76%;
+    }
+    .hero-img{
+        margin-left: 1rem;
+    }
+    .back-image{
+        height: 35rem;
+    }
+    .second-hero{
+        height: 25rem;
+    }
+    .second-hero .second-hero-text{
+        width: 56%;
+    }
+    .second-hero .second-hero-img{
+        margin-top: -4rem;
+        height: 40rem;
+    }
+    .third-hero-img .hero-text{
+        width: 53%;
+    }
+    .third-hero-img .hero-img{
+        width: 42%;
+        margin-right: 5%;
+    }
+    .fourth-hero{
+        height: 22rem;
+    }
+    .fourth-back .fourth-text{
+        margin-top: 1.8rem;
+    }
+    .fourth-img{
+        margin-top: -8rem;
+    }
+    .fourth-back .fourth-text{
+        margin: 3rem 2rem;
+    }
+}
+@media only screen and (max-width:844px){
+    .third-hero-img .hero-text{
+        width: 54%;
+    }
+    .third-hero-img .hero-img{
+        width: 42%;
+        margin-right: 5%;
+    }
+    .fourth-back .fourth-text{
+        margin: 2.7rem 1.8rem;
+    }
+    .fourth-back .fourth-text{
+        width: 58%;
+    }
+    .hero-div .hero-text{
+        width: 80%;
+    }
+}
+@media only screen and (max-width:802px){
+    .second-hero .second-hero-text{
+        width: 59%;
+        padding-right: 1rem;
+    }
+    .third-hero-img .hero-text{
+        width: 48%;
+    }
+    .third-hero-img{
+        height: 27.5rem;
+    }
+    .third-hero-img .hero-img{
+        width: 46%;
+        margin-right: 6%;
+    }
+    .hero-div .hero-text{
+        width: 67%;
+    }
+    p{
+        line-height: 1.85rem;
+    }
+    .fourth-back .fourth-text{
+        width: 63%;
+        margin: 2.7rem 1.9rem;
+    }
+    .hero-img{
+        position: absolute;
+        right: 0;
+        margin-right: 1.2rem;
+        width: 29%;
+    }
+    .third-hero-img .hero-img{
+        position: relative;
+    }
+    .back-image{
+        height: 34rem;
+    }
+}
+@media only screen and (max-width:769px){
+    .second-hero .second-hero-text{
+        width: 68%;
+        padding-right: 1rem;
+    }
+    .second-hero-img{
+        width: 30%;
+        padding-right: 1rem;
+    }
+    .third-hero-img{
+        height: 27.5rem;
+    }
+    .third-hero-img .hero-text{
+        width: 53%;
+    }
+    .third-hero-img .hero-img{
+        width: 40%;
+        margin-right: 7%;
+    }
+    .hero-div .hero-text{
+        width: 69%;
+    }
+    p{
+        line-height: 1.85rem;
+    }
+    .fourth-back .fourth-text{
+        width: 63%;
+        margin-top: 1.5rem;
+    }
+    .back-image{
+        height: 34rem;
+    }
+    .fourth-hero{
+        height: 20rem;
+    }
+}
+@media only screen and (max-width:733px){
+    .hero-div .hero-text{
+        width: 72%;
+    }
+    .hero-img{
+        width: 26%;
+    }
+    .second-hero .second-hero-text{
+        width: 72%;
+        margin-top: -1rem;
+    }
+    .second-hero .second-hero-img{
+        margin-top: 2rem;
+        height: 45rem;
+    }
+    .second-hero{
+        height: 26rem;
+    }
+    .third-hero-img .hero-text{
+        width: 63%;
+    }
+    .third-hero-img .hero-img{
+        width: 33%;
+        margin-right: 4%;
+    }
+    .fourth-back .fourth-text{
+        width: 65%;
+    }
+    .fourth-img{
+        width: 25%;
+    }
+    .back-image{
+        height: 34rem;
+    }
+}
+@media only screen and (max-width:705px){
+    .hero-img{
+        width: 28%;
+    }
+    .hero-div .hero-text{
+        width: 68%;
+        margin-top: -1.9rem;
+    }
+    p{
+        font-size: clamp(.95rem, 1.7vw, 1.05rem);
+        line-height: 1.65rem;
+    }
+    .hero-text h1{
+        font-size: clamp(1.7rem, 1.8vw, 1.9rem);
+        line-height: 2.4rem;
+    }
+    .second-hero .second-hero-text h1{
+        font-size: clamp(1.7rem, 1.8vw, 1.9rem);
+        line-height: 2.2rem;
+        margin-top: -2.7rem;
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(1.6rem, 1.8vw, 1.8rem);
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(1.6rem, 1.8vw, 1.8rem);
+        line-height: 2.1rem;
+    }
+    .second-hero{
+        height: 22rem;
+    }
+    .second-hero .second-hero-text{
+        width: 60%;
+        margin-top: 1rem;
+    }
+    .third-hero-img{
+        height: 24.5rem;
+    }
+    .third-hero-img .hero-text{
+        width: 57%;
+        margin-top: .3rem;
+    }
+    .third-hero-img .hero-img{
+        width: 36%;
+        margin-right: 7%;
+    }
+    .fourth-hero{
+        height: 19rem;
+    }
+    .fourth-back .fourth-text{
+        margin-top: 2.3rem;
+    }
+    .fourth-back .fourth-text{
+        width: 62%;
+        margin: 2.9rem 1.5rem;
+    }
+    .fourth-img{
+        width: 30%;
+    }
+    .fourth-text .waitlist-btn{
+        line-height: 4rem;
+    }
+    .back-image{
+        height: 29rem;
+    }
+}
+@media only screen and (max-width:674px){
+    .third-hero-img .hero-text{
+        width: 60%;
+        margin-top: .3rem;
+    }
+    .third-hero-img .hero-img{
+        width: 34%;
+        margin-right: 6%;
+    }
+    .fourth-hero{
+        margin-bottom: 0;
+    }
+    .fourth-back .fourth-text{
+        width: 66%;
+    }
+    .fourth-text .waitlist-btn{
+        font-size: .9rem;
+        padding: .5rem 1.2rem;
+    }
+    .navbar2 .waitlist-btn{
+        font-size: .9rem;
+        padding: .5rem 1.5rem;
+        margin-top: 2rem;
+    }
+    .logo1 .img-logo1{
+        width: 60px;
+        height: 60px;
+    }
+    .navbar2 .logo1{
+        width: 110px;
+        height: 110px;
+    }
+    .logo1:not(:last-child){
+        margin-left: 1rem;
+    }
+    .hero-div .hero-text1 h1{
+        margin-top: 2.6rem;
+    }
+}
+@media only screen and (max-width:640px){
+    .back-image{
+        height: 29.5rem;
+    }
+    p{
+        font-size: clamp(.95rem, 1.7vw, 1rem);
+        line-height: 1.5rem;
+    }
+    .hero-text h1{
+        font-size: clamp(1.6rem, 1.8vw, 1.7rem);
+        line-height: 2.2rem;
+    }
+    .second-hero .second-hero-text h1{
+        font-size: clamp(1.6rem, 1.8vw, 1.7rem);
+        line-height: 2rem;
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(1.5rem, 1.8vw, 1.6rem);
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(1.5rem, 1.8vw, 1.6rem);
+        line-height: 1.9rem;
+    }
+    .hero-img{
+        width: 35%;
+        height: 29rem;
+    }
+    .hero-div .hero-text{
+        width: 60%;
+        margin-top: -1.9rem;
+    }
+    .second-hero .second-hero-text{
+        width: 75%;
+    }
+    .third-hero-img{
+        height: 24rem;
+    }
+    .third-hero-img .hero-img{
+        position: absolute;
+        top: -5%;
+        right: -2%;
+    }
+    .third-hero-img .third-text{
+        margin-top: 1rem;
+    }
+    .fourth-back .fourth-text{
+        margin-top: 2.3rem;
+    }
+    .fourth-back .fourth-text{
+        width: 66%;
+    }
+    .fourth-img{
+        width: 26%;
+    }
+}
+@media only screen and (max-width:620px){
+    .hero-img{
+        width: 35%;
+        height: 29rem;
+    }
+    .hero-div .hero-text{
+        width: 60%;
+        margin-top: -1.9rem;
+    }
+    .second-hero .second-hero-text{
+        width: 70%;
+    }
+    .fourth-back .fourth-text{
+        margin-top: 2.3rem;
+    }
+    .fourth-back .fourth-text{
+        width: 66%;
+    }
+    .fourth-img{
+        width: 26%;
+    }
+    .fourth-hero{
+        height: 18rem;
+    }
+    .third-hero-img{
+        height: 23rem;
+    }
+    .third-hero-img .third-text{
+        margin-top: .4rem;
+    }
+}
+@media only screen and (max-width:609px){
+    .back-image{
+        height: 31.5rem;
+    }
+    p{
+        font-size: clamp(.93rem, 1.7vw, .95rem);
+        line-height: 1.5rem;
+    }
+    .hero-text h1{
+        font-size: clamp(1.55rem, 1.8vw, 1.65rem);
+        line-height: 2.2rem;
+    }
+    .second-hero .second-hero-text h1{
+        font-size: clamp(1.55rem, 1.8vw, 1.65rem);
+        line-height: 2rem;
+    }
+    .third-hero .hero-text h1{
+        font-size: clamp(1.45rem, 1.8vw, 1.55rem);
+    }
+    .fourth-back .fourth-text h1{
+        font-size: clamp(1.45rem, 1.8vw, 1.55rem);
+        line-height: 1.9rem;
+    }
+    .second-hero .second-hero-text{
+        width: 82%;
+    }
+    .fourth-back .fourth-text{
+        width: 72%;
+    }
+    .fourth-img{
+        width: 26%;
+    }
+    .fourth-hero{
+        height: 16rem;
+    }
+    .third-hero-img{
+        height: 24rem;
+    }
+    .third-hero-img .third-text{
+        margin-top: .2rem;
+    }
+}
+@media only screen and (max-width:550px){
+    .hero-text h1{
+        font-size: clamp(1.6rem, 1.8vw, 1.8rem);
+        line-height: 2.4rem;
+    }
+    .back-image{
+        height: 32rem;
+        position: relative;
+    }
+    .hero-div .hero-text{
+        margin-top: .2rem;
+    }
+    .second-hero .second-hero-text h1{
+        display: none;
+    }
+    .second-hero h1{
+        display: block;
+        color: #28256A;
+        margin-top: 1rem;
+        font-size: clamp(1.6rem, 1.8vw, 2.1rem);
+        letter-spacing: 1.5px;
+    }
+    .second-hero{
+        flex-direction: column;
+        width: 100%;
+        height: 35rem;
+    }
+    .second-hero .second-hero-img{
+        height: 30rem;
+        width: 70%;
+        margin-top: -7rem;
+        padding-left: 0;
+    }
+    .second-hero .second-hero-text{
+        width: 90%;
+        padding: 1rem 0;
+        margin-top: -8rem;
+    }
+    .second-hero .second-hero-text p{
+        font-weight: 500;
+        letter-spacing: 0;
+        font-size: 1.05rem;
+    }
+    .third-hero-img{
+        height: 39rem;
+    }
+    .third-hero .hero-text h1{
+        display: none;
+    }
+    .third-hero-img .hero-div{
+        align-items: none;
+        flex-direction: column-reverse;
+        justify-content: start;
+    }
+    .third-hero h1{
+        display: block;
+        color: #fff;
+        text-align: center;
+        line-height: 7rem;
+        font-size: clamp(1.55rem, 1.8vw, 2.1rem);
+        letter-spacing: 2px;
+    }
+    .third-hero-img .hero-img{
+        width: 60%;
+        height: 80%;
+        margin-top: -3rem;
+        padding: 0;
+        position: relative;
+    }
+    .third-hero-img .hero-text{
+        width: 90%;
+        padding-left: 0;
+        margin-top: 1.2rem;
+    }
+    p{
+        font-size: 1.03rem;
+        line-height: 1.68rem;
+    }
+    .hero-text1{
+        display: none;
+    }
+    .hero-img2{
+        display: none;
+    }
+    .hero-div .hero-text2{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0 1.3rem;
+    }
+    .hero-text2 .text-two{
+        width: 100%;
+        height: 15rem;
+        display: grid;
+        grid-template-columns: .8fr 1fr;
+        position: relative;
+    }
+    .text-two .imag1{
+        width: 100%;
+        height: 12.4rem;
+        margin-top: -2rem;
+    }
+    .text-two .imag1 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .hero-div .hero-text .text-two p{
+        max-width: 80%;
+        height: auto;
+        word-spacing: 0;
+    }
+    .hero-text2 .text2 p{
+        text-align: justify;
+        margin-top: -3.4rem;
+    }
+    .hero-text2 .text2{
+        width: 100%;
+    }
+    .fourth-hero{
+        width: 92%;
+        margin-left: 4%;
+        margin-right: 4%;
+        height: 22rem;
+    }
+    .fourth-back .fourth-text{
+        width: 44%;
+        margin: 2rem 1.7rem;
+    }
+    .fourth-back .fourth-text p{
+        margin-top: -.8rem;
+        text-align: left;
+    }
+    .fourth1{
+        display: none;
+    }
+    .fourth2{
+        display: block;
+        color: #fff;
+        margin-left: 1.7rem;
+        line-height: 1.9rem;
+        padding-top: 1.5rem;
+        letter-spacing: 1px;
+        font-size: clamp(1.4rem, 1.8vw, 1.8rem);
+    }
+    .navbar2 .waitlist-btn{
+        font-size: 1rem;
+        padding: .6rem 1.8rem;
+        margin-right: -.6rem;
+    }
+    .fourth-text .waitlist-btn{
+        line-height: 5rem;
+    }
+    .fourth-img{
+        width: 47%;
+        margin-top: -13rem;
+        height: 33rem;
+        right: 10%;
+    } 
+    .logo1 a .img-logo1{
+        width: 50px;
+        height: 50px;
+    }
+    .logo1 a{
+        width: 120px;
+        height: 120px;
+        margin-top: 1rem;
+        margin-left: -.6rem;
+    }
+}
+@media only screen and (max-width:531px){
+    .back-image{
+        height: 34rem;
+    }
+    .hero-text2 .text2 p{
+        margin-top: -2.3rem;
+    }
+}
+@media only screen and (max-width:501px){
+    .fourth-back .fourth-text{
+        width: 49%;
+        margin: 2rem 1.7rem;
+    }
+    .fourth-img{
+        width: 47%;
+        margin-top: -12rem;
+        height: 35rem;
+        right: 8%;
+    }
+    .third-hero-img .hero-img{
+        width: 70%;
+        height: 80%;
+        margin-top: -3rem;
+        padding: 0;
+    }
+    .third-hero-img{
+        height: 41rem;
+    }
+    .fourth2{
+        line-height: 1.9rem;
+    }
+}
+@media only screen and (max-width:490px){
+    .back-image{
+        height: 35rem;
+    }
+    .hero-text2 .text2 p{
+        margin-top: -2rem;
+    }
+    .text-two .imag1{
+        width: 100%;
+        height: 13.4rem;
+        margin-top: -1.7rem;
+    }
+    .hero-div .hero-text2{
+        padding: 0 1.45rem;
+    }
+    .second-hero .second-hero-img{
+        width: 72%;
+        margin-top: -5.5rem;
+    }
+    .second-hero .second-hero-text{
+        margin-top: -9rem;
+    }
+    .fourth-back .fourth-text{
+        width: 49%;
+        margin: 2rem 1.7rem;
+    }
+    .fourth-img{
+        right: 5%;
+    }
+    .hero-text2 .text-two{
+        grid-template-columns: .9fr 1fr;
+    }
+    .text-two .imag1{
+        width: 100%;
+        height: 15rem;
+        margin-top: -3.6rem;
+    }  
+}
+@media only screen and (max-width:460px){
+    .third-hero-img{
+        height: 38rem;
+    }
+    .hero-text2 .text-two{
+        grid-template-columns: .9fr .9fr;
+    }
+    .second-hero .second-hero-text p{
+        font-weight: 500;
+        letter-spacing: 0;
+        font-size: 1rem;
+    }
+    p{
+        font-size: .95rem;
+        line-height: 1.65rem;
+    }
+    .back-image{
+        height: 33rem;
+    }
+    .hero-text2 .text2 p{
+        margin-top: -3.4rem;
+    }
+    .fourth-hero{
+        height: 20rem;
+    }
+}
+@media only screen and (max-width:448px){
+    .fourth-back .fourth-text{
+        width: 52%;
+        margin: 2rem 1.7rem;
+    }
+    .hero-text2 .text-two{
+        grid-template-columns: 1fr .9fr;
+    }
+    .fourth-img{
+        right: 4%;
+        width: 45%;
+    }
+    .back-image{
+        height: 34.5rem;
+    }
+    .hero-text2 .text2 p{
+        margin-top: -2.8rem;
+    }
+    .navbar2 .waitlist-btn{
+        font-size: .95rem;
+        padding: .5rem 1.6rem;
+    }
+    .second-hero .second-hero-img{
+        margin-top: -7.2rem;
+    }
+    .text-two .imag1{
+        width: 100%;
+        height: 17rem;
+        margin-top: -4.3rem;
+    }
+}
+@media only screen and (max-width:420px){
+   p{
+    font-size: .92rem;
+    line-height: 1.55rem;
+    text-align: justify;
+   }
+   .hero-text2 .text2 p{
+    margin-top: -3.6rem;
+   }
+   .third-hero-img .hero-text p{
+    font-size: .95rem;
+   }
+   .fourth-img{
+        margin-top: -14rem;
+    }
+    .back-image{
+        height: 33rem;
+    }
+}
+@media only screen and (max-width:400px){
+    p{
+        font-size: .9rem;
+        line-height: 1.45rem;
+        text-align: justify;
+    }
+    .hero-text2 .text2 p{
+        margin-top: -3.4rem;
+    }
+    .third-hero-img .hero-text p{
+        font-size: .93rem;
+    }
+   .fourth-back .fourth-text{
+        width: 55%;
+        margin: 2rem 1.7rem;
+   }
+   .fourth-img{
+        right: 2%;
+        width: 43%;
+    }
+   .hero-text2 .text-two{
+        grid-template-columns: 1fr .8fr;
+   }
+    .navbar2 .waitlist-btn{
+        font-size: .9rem;
+        padding: .45rem 1.2rem;
+   }
+    .logo1 a .img-logo1{
+        width: 40px;
+        height: 40px;
+    }
+    .logo1 a{
+        width: 100px;
+        height: 100px;
+        margin-top: 1.5rem;
+        margin-left: -.6rem;
+    }
+    .back-image{
+        height: 33.8rem;
+    }
+    .fourth-hero{
+        height: 19rem;
+    }
+    .third-hero-img{
+        height: 36rem;
+    }
+    .text-two .imag1{
+        height: 21rem;
+        margin-top: -5.8rem;
+    }
+
+}
+@media only screen and (max-width:360px){
+    .hero-text2 .text-two p{
+        font-size: .85rem;
+    }
+    .fourth-back .fourth-text{
+        width: 58%;
+    }
+    .fourth-img{
+        margin-top: -13rem;
+        right: 2%;
+        width: 43%;
+    }
+    .navbar2 .waitlist-btn{
+        font-size: .85rem;
+        padding: .2rem 1rem;
+   }
+    .logo1 a .img-logo1{
+        width: 30px;
+        height: 30px;
+    }
+    .logo1 a{
+        width: 90px;
+        height: 90px;
+        margin-top: 1.9rem;
+        
+    }
+    .third-hero-img{
+        height: 36rem;
+    }
+ }
+ @media only screen and (max-width:340px){
+    .hero-text2 .text-two p{
+        font-size: .8rem;
+    }
+    .fourth-back .fourth-text{
+        width: 58%;
+    }
+    .fourth-img{
+        margin-top: -13rem;
+        right: 2%;
+        width: 43%;
+    }
+    p{
+        font-size: .8rem;
+        line-height: 1.3rem;
+    }
+    .second-hero .second-hero-text p{
+        line-height: 1.6rem
+    }
+    .hero-text2 .text2 p{
+        margin-top: -3.4rem;
+    }
+    .third-hero-img .hero-text p{
+        font-size: .9rem;
+        line-height: 1.7rem;
+    }
+    .fourth-img{
+        right: 2%;
+        width: 43%;
+    }
+    .hero-text2 .text-two{
+        grid-template-columns: 1fr .8fr;
+    }
+     .navbar2 .waitlist-btn{
+        font-size: .7rem;
+        padding: .3rem .9rem;
+        display: flex;
+    }
+    .logo1 a .img-logo1{
+        width: 25px;
+        height: 25px;
+    }
+    .logo1 a{
+        width: 75px;
+        height: 75px;
+        margin-top: 2.3rem;
+        margin-left: -1.7rem;
+    }
+    .back-image{
+        height: 34rem;
+    }
+    .third-hero-img{
+        height: 39rem;
+    }
+ }
