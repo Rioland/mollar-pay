@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^about about.html [NC]
+RewriteRule ^waitlist waitlist.html [NC]
+RewriteRule ^notify notify.html [NC]
+RewriteRule ^handler app/index.php [NC]
+
+

@@ -108,6 +108,7 @@
     background: none;
     font-size: clamp(1.2rem, 2vw + 1rem, 1.75rem);
     padding-bottom: 1rem;
+    letter-spacing: .5px;
 }
 .text-box2{
     padding-top: 3.2rem;
