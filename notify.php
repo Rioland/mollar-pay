@@ -63,7 +63,9 @@
             </div>
         </div>
     </div>
-
+    <?php  
+  require("./footer.php")
+    ?>
     <script src="notify.js"></script>
 </body>
 </html>

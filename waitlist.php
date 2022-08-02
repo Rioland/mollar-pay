@@ -74,6 +74,9 @@
         </div>
       </div>
     </div>
+    <?php  
+  require("./footer.php")
+    ?>
     <script>
       $(document).ready(function () {
         $("#submit").click(function (e) {
