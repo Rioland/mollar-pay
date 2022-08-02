@@ -128,7 +128,7 @@ li a .li-img img{
     height: auto;
     position: absolute;
     right: 4%;
-    top: 29%;
+    top: 34%;
 }
 .not-img img{
     width: 100%;
@@ -149,7 +149,7 @@ li a .li-img img{
         font-size: clamp(4.3rem, 3vw + 1.2rem, 4.6rem);
     }
     .not-img{
-        top: 26%;
+        top: 31%;
     }
     .overlay .share-form li a{
         padding: .8rem;
@@ -176,7 +176,7 @@ li a .li-img img{
         font-size: clamp(4.6rem, 3vw + 1.2rem, 4.9rem);
     }
     .not-img{
-        top: 26%;
+        top: 29.5%;
     }
     .blue-btn{
         padding: 1.6rem 3rem;
@@ -211,7 +211,7 @@ li a .li-img img{
         font-size: clamp(4.8rem, 3vw + 1.2rem, 5.2rem);
     }
     .not-img{
-        top: 24%;
+        top: 30.5%;
     }
     .blue-btn{
         padding: 1.8rem 3.2rem;
@@ -247,7 +247,7 @@ li a .li-img img{
         font-size: clamp(5rem, 3vw + 1.2rem, 5.4rem);
     }
     .not-img{
-        top: 22%;
+        top: 29%;
     }
     .blue-btn{
         padding: 1.9rem 3.3rem;
@@ -282,7 +282,7 @@ li a .li-img img{
         font-size: clamp(5.2rem, 3vw + 1.2rem, 5.6rem);
     }
     .not-img{
-        top: 23.5%;
+        top: 27%;
     }
     .blue-btn{
         padding: 2rem 3.5rem;
@@ -318,7 +318,7 @@ li a .li-img img{
         font-size: clamp(5.4rem, 3vw + 1.2rem, 5.8rem);
     }
     .not-img{
-        top: 21%;
+        top: 23.5%;
     }
     .blue-btn{
         padding: 2rem 3.5rem;
@@ -356,7 +356,7 @@ li a .li-img img{
         font-size: clamp(5.8rem, 3vw + 1.2rem, 6.3rem);
     }
     .not-img{
-        top: 22%;
+        top: 28%;
     }
     .blue-btn{
         padding: 2.2rem 4.4rem;
@@ -386,7 +386,7 @@ li a .li-img img{
         font-size: clamp(3.8rem, 3vw + 1.2rem, 4.1rem);
     }
     .not-img{
-        top: 29.5%;
+        top: 31.5%;
     }
     .blue-btn{
         font-size: clamp(1.4rem, 1.8vw + 1rem, 1.7rem);
@@ -407,7 +407,7 @@ li a .li-img img{
         font-size: clamp(3.5rem, 3vw + 1.2rem, 3.8rem);
     }
     .not-img{
-        top: 27%;
+        top: 30%;
     }
     .blue-btn{
         font-size: clamp(1.25rem, 1.8vw + 1rem, 1.5rem);
@@ -438,7 +438,7 @@ li a .li-img img{
         font-size: clamp(3.35rem, 3vw + 1.2rem, 3.6rem);
     }
     .not-img{
-        top: 24.6%;
+        top: 27.6%;
     }
     .blue-btn{
         font-size: clamp(1.25rem, 1.8vw + 1rem, 1.5rem);
@@ -479,7 +479,7 @@ li a .li-img img{
         font-size: clamp(3.2rem, 3vw + 1.2rem, 3.4rem);
     }
     .not-img{
-        top: 26%;
+        top: 29%;
     }
 }
 @media only screen and (max-width:976px){
@@ -648,7 +648,7 @@ li a .li-img img{
         font-size: 2.35rem;
     }
     .not-img{
-        top: 30%;
+        top: 25%;
     }
     .blue-btn{
         line-height: 5rem;
@@ -676,7 +676,7 @@ li a .li-img img{
         font-size: 2.25rem;
     }
     .not-img{
-        top: 32%;
+        top: 25%;
     }
     .blue-btn{
         line-height: 4.5rem;
@@ -701,15 +701,18 @@ li a .li-img img{
         left: 15%;
     }
 }
-@media only screen and (max-width:698px){
+@media only screen and (max-width:701px){
     .not-text1 h1{
         font-size: 2.15rem;
+    }
+    .not-img{
+        top: 23%;
     }
 }
 @media only screen and (max-width:673px){
     .not-text1 h1{
-        font-size: 2.1rem;
-        padding-left: 1.5rem;
+        font-size: 2rem;
+        padding-left: 0;
     }
     .not-img{
         right: 2%;
@@ -746,16 +749,16 @@ li a .li-img img{
 }
 @media only screen and (max-width:638px){
     .not-text1 h1{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .not-img{
-        top: 34%;
+        top: 23%;
         right: 2%;
     }
 }
 @media only screen and (max-width:613px){
     .not-text1 h1{
-        font-size: 1.85rem;
+        font-size: 1.82rem;
     }
     .not-2{
         line-height: 3.1rem;
@@ -780,20 +783,19 @@ li a .li-img img{
         width: 73%;
         left: 13.5%;
     }
+    .logo{
+        margin-top: 1.5rem;
+    }
 }
-@media only screen and (max-width:575px){
+@media only screen and (max-width:581px){
     .not-text1 h1{
-        font-size: 1.75rem;
+        font-size: 1.7rem;
     }
     .not-2{
         line-height: 3.1rem;
     }
 }
-@media only screen and (max-width:550px){
-    .navbar3{
-        height: 100px;
-        padding-top: 1rem;
-    }
+@media only screen and (max-width:551px){
     .notify-text{
         display: none;
     }

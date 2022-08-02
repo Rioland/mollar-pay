@@ -43,6 +43,7 @@
 }
 .waitlist-btn{
     margin-top: 1.3rem;
+    border: 2px solid #28256a;
 }
 .waitlist-btn a{
     text-decoration: none;
@@ -94,7 +95,7 @@
     height: 37rem;
     border-radius: 3rem;
     margin-top: 2rem;
-    background: url("../images/bg\ \(1\).jpg");
+    background: url("../images/bg.png");
     background-position: center;
     background-size: cover;
     color: #8683A2;
@@ -603,6 +604,9 @@ input::placeholder {
     }
     .waitlist-btn{
         margin-top: 1.3rem;
+    }
+    .logo{
+        margin-top: 1.7rem;
     }
     .wait-text .form-waitlist{
         width: 97%;
