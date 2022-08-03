@@ -26,7 +26,7 @@
                 </a>
         </div>
         <div class="background">
-            <img src="images/bg.png" alt="">
+            <img src="images/bg (1).jpg" alt="">
             <div class="back-text">
                 <h1 class="p-one one">All your<br> financial needs<br> in one place</h1>
                 <h1 class="p-two two">All your financial<br> needs in one place</h1>
@@ -46,7 +46,7 @@
            <div class="enjoy-two">
             <div class="enjoy2">
                 <div class="first">
-                    <img src="images/bg.png" alt="">
+                    <img src="images/bg (1).jpg" alt="">
                     <div class="first-text first1">
                         <div class="icon"><i class='bx bx-check'></i></div>
                         <div class="texts">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
                 <div class="second">
-                    <img src="images/bg.png" alt="">
+                    <img src="images/bg (1).jpg" alt="">
                     <div class="first-text first2">
                         <div class="icon"><i class='bx bx-check'></i></div>
                         <div class="texts">
@@ -69,7 +69,7 @@
             </div>
         <div class="enjoy3">
             <div class="third">
-                <img src="images/bg.png" alt="">
+                <img src="images/bg (1).jpg" alt="">
                 <div class="first-text first2">
                     <div class="icon"><i class='bx bx-check'></i></div>
                     <div class="texts">
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="fourth">
-                <img src="images/bg.png" alt="">
+                <img src="images/bg (1).jpg" alt="">
                     <div class="first-text first1">
                     <div class="icon"><i class='bx bx-check'></i></div>
                     <div class="texts">

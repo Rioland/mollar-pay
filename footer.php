@@ -108,17 +108,17 @@
     </div> -->
 
 
-<div class=" container myfotercontainer  mt-5">
+<div class=" container myfotercontainer  mt-5 ms-auto me-auto">
 
     <p class="h1 text-white text-center mt-5 pt-5">Download the app</p>
-    <p class="text-muted text-center mb-5 pb-5 w-50 ms-auto me-auto fw-3 fs-3">Join about 2 million people who buy sell, pay & get paid with Pocket app. No commission on any payments you receive.</p>
-    <div class="ms-auto me-auto mb-5 pb-5 mbv d-flex flex-row flex-md-column flex-sm-column flex-lg-row justify-content-center" style="width: fit-content;">
-        <button class="btn btn-light bbt me-4 mb-sm-3 mb-md-3"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 28" style="margin-left:12px; margin-right:12px;height:1.6875em;margin-bottom:12px;">
+    <p class="text-muted text-center mb-5 pb-5 w-50 ms-auto me-auto fw-3 fs-3" style="width: 50%; min-width: 50%">Join about 2 million people who buy sell, pay & get paid with Pocket app. No commission on any payments you receive.</p>
+    <div class="ms-auto me-auto mb-5 pb-5  d-flex flex-column flex-md-column flex-sm-column flex-lg-row justify-content-center" style="width: fit-content;">
+        <!-- <button class="btn btn-light bbt me-4 mb-sm-3 mb-md-3 mb-lg-0 mb-3"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 28" style="margin-left:12px; margin-right:12px;height:1.6875em;margin-bottom:12px;">
                 <path fill="#212337" d="M19.995 23.908c-1.12 1.646-2.278 3.282-4.106 3.316-1.8.034-2.377-1.072-4.43-1.072-2.056 0-2.7 1.038-4.399 1.106-1.765.067-3.108-1.777-4.237-3.416-2.306-3.35-4.066-9.473-1.699-13.605 1.173-2.051 3.273-3.35 5.55-3.384 1.733-.032 3.371 1.175 4.43 1.175 1.06 0 3.049-1.45 5.138-1.237.875.037 3.33.355 4.907 2.674-.124.082-2.93 1.723-2.896 5.142.034 4.084 3.56 5.441 3.6 5.46-.031.096-.563 1.938-1.858 3.84ZM12.317 2.305C13.285 1.165 14.92.317 16.27.26c.173 1.584-.461 3.17-1.397 4.312-.938 1.14-2.474 2.03-3.98 1.91-.205-1.549.554-3.164 1.424-4.177Z"></path>
-            </svg> <span class="h2 ms-2">App Store</span> </button>
+            </svg> <span class="h2 ms-2">App Store</span> </button> -->
 
 
-
+<!-- 
         <button class="btn btn-light bbt me-4 mb-sm-3 mb-md-3">
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 30" style="margin-left:12px; margin-right:12px;height:1.6875em;margin-bottom:12px;">
@@ -127,34 +127,36 @@
                     <path d="m18.939 19.382-4.406-4.41L1.42 28.097c.524.525 1.258.525 2.203.105l15.316-8.819m0-8.819L3.623 1.85c-.945-.525-1.679-.42-2.203.105l13.113 13.019 4.406-4.41h0z"></path>
                 </g>
             </svg>
-            <span class="h2 ms-2">play Store</span> </button>
+            <span class="h2 ms-2">play Store</span> 
+        </button> -->
 
     </div>
 </div>
 
 
 <div class="container ms-auto me-auto mb-5 " style="width: fit-content;">
-    <button class="btn btn-light bbt me-4 mt-sm-3 t-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">FQA's</span> </button>
-    <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Privacy's</span> </button>
-    <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Team's</span> </button>
-    <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Contact Us</span> </button>
+    <!-- <button class="btn btn-light bbt me-4 mt-sm-3 t-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">FQA's</span> </button> -->
+    <!-- <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Privacy's</span> </button> -->
+    <!-- <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Team's</span> </button> -->
+    <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3 mt-lg-2 mt-3" style="background-color: whitesmoke;"><span class="h3 ms-2">Contact Us</span> </button>
 
 </div>
 <hr class="text-muted">
 <div class=" container mt-5">
-    <h3 class="text-muted text-center">© 2022 moolapay Technologies.</h3>
-    <p class="ms-auto me-auto  text-muted text-center h5 w-50">Pocket App is a social commerce platform by <span class="h3">moolapay</span>. <br>
-        Banking services provided by <span class="h3">moolapay.</span></p>
+    <h3 class="text-muted text-center">© 2022 Erissal Technologies.</h3>
+    <p class="ms-auto me-auto  text-muted text-center h5">MoolaPay App is a social commerce platform by: <span class="h3"> <br> Erissal Technologies</span>. <br>
+        <!-- Banking services provided by <span class="h3">MoolaPay.</span> -->
+    </p>
 </div>
-<div class="container ms-auto me-auto mt-5 mb-5" style="width: fit-content;">
+<div class="container ms-auto me-auto mt-3 mb-3" style="width: fit-content;">
     <div class="logo">
-        <a href="/">
-            <!-- <img class="img-logo1" src="images/logo_logo icon blue copy.png" width="80px" height="60px" alt=""> -->
-            <img class="img-logo2" src="images/logo_text blue only copy.png"  width="80px" height="60px"  alt="">
+        <a href="/" style="text-decoration: none;">
+            <img class="img-logo1" src="images/logo_logo icon blue copy.png" style=" width: 4rem; height: auto" alt="">
+            <img class="img-logo2" src="images/logo_text blue only copy.png"  style=" width: 10rem; height: auto;"  alt="">
         </a>
     </div>
 </div>
-<div class="container ms-auto me-auto mt-5 mb-5" style="width: fit-content;">
+<div class="container ms-auto me-auto mt-3 mb-5" style="width: fit-content;">
 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="27" fill="currentColor" class="bi bi-instagram me-3" viewBox="0 0 16 16">
   <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
 </svg>

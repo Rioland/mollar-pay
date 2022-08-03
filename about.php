@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moola Pay</title>
-    <link rel="shortcut icon" href="images/logo_logo icon blue copy.png" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +17,7 @@
         <div class="back-image">
             <div class="navbar">
                 <div class="logo">
-                    <a href="/">
+                    <a href="./">
                         <img class="img-logo1" src="images/logo_logo icon white 1.png" alt="">
                         <img class="img-logo2" src="images/logo_white text only 1.png" alt="">
                     </a>

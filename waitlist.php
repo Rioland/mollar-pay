@@ -26,9 +26,9 @@
       <div class="waitlist">
         <div class="navbar3">
           <div class="logo1">
-            <a href="/">
-            <img class="img-logo1" src="images/logo_logo icon blue copy.png" alt="">
-                    <img class="img-logo2" src="images/logo_text blue only copy.png" alt="">
+            <a href="/" > 
+            <img class="img-logo1" src="images/logo_logo icon blue copy.png" style=" width: 4rem; height: auto"  alt="">
+              <img class="img-logo2" src="images/logo_text blue only copy.png" style=" width: 10rem; height: auto;" alt="">
             </a>
           </div>
           <div class="waitlist-btn">
