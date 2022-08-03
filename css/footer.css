@@ -2,7 +2,29 @@ body{
     padding: 0px !important;
     margin: 0px !important;
 }
-.container-fluid{
+
+.myfotercontainer{
+    height: fit-content;
+    min-width: 400px;
+    background:url("../images/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 3rem;
+}
+.w-50{
+    width: 50% !important;
+}
+.bbt{
+    /* padding: 1.3rem; */
+    border-radius: 40px;
+}
+@media only screen and (max-width:505px){
+   .mbv{
+    
+   }
+}
+/* .container-fluid{
     width: 100% !important;
 }
 .card {
@@ -80,4 +102,4 @@ body{
 
 .follow-text {
     color: #9E9E9E;
-}
+} */
