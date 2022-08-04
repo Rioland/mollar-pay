@@ -18,8 +18,8 @@
             <div class="navbar">
                 <div class="logo">
                     <a href="./">
-                        <img class="img-logo1" src="images/logo_logo icon white 1.png" alt="">
-                        <img class="img-logo2" src="images/logo_white text only 1.png" alt="">
+                        <img class="img-logo1" src="images/logo_logo icon white 1.png" alt="" style=" width: 4rem; height: auto">
+                        <img class="img-logo2" src="images/logo_white text only 1.png" style=" width: 10rem; height: auto;" alt="">
                     </a>
                 </div>
                     <a class="waitlist-btn" href="waitlist">
