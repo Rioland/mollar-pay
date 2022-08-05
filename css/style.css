@@ -19,12 +19,14 @@
     align-items: center;
     justify-content: space-between;
 }
+
 .navbar .logo a{
    width: 15rem;
    height: auto;
    display: flex;
    align-items: center;
 }
+
 .navbar .logo a .img-logo2{
     width: 10rem;
     height: auto;
@@ -33,11 +35,14 @@
     width: 5rem;
     height: auto;
  }
+
  .navbar .logo a .img-logo2 img{
     object-fit: contain;
     width: 100%;
     height: 100%;
  }
+
+
 .waitlist-btn{
     text-decoration: none;
     color: #28256A;
@@ -1414,6 +1419,8 @@
         width: 4rem;
         height: auto;
      }
+
+     
 }
 @media screen and (max-width:1160px){
     .background{
@@ -1609,6 +1616,7 @@
         width: 3.4rem;
         height: auto;
      }
+    
      .enjoy1 .waitlist-btn{
         padding: .8rem 2.1rem;
      }
@@ -1699,6 +1707,7 @@
         width: 3.2rem;
         height: auto;
      }
+     
 }
 @media only screen and (max-width:941px){
     .back-text h1{
@@ -1847,6 +1856,7 @@
         width: 3rem;
         height: auto;
      }
+
 }
 @media only screen and (max-width:850px){
     .enjoy1 p{
@@ -2068,6 +2078,8 @@
         width: 3.1rem;
         height: auto;
      }
+
+    
 
 }
 @media only screen and (max-width:670px){
@@ -2363,6 +2375,8 @@
         width: 3rem;
         height: auto;
      }
+
+     
      .down{
         width: 7rem;
     }
@@ -2482,6 +2496,10 @@
     width: 2.5rem;
     height: auto;
  }
+ .footer-logo a .img-logo1{
+    width: 2.5rem;
+    height: auto;
+ }
 }
 @media only screen and (max-width:412px){
     .back-text h1{
@@ -2568,6 +2586,13 @@
      .navbar .logo a .img-logo1{
         width: 2rem;
      }
+     .footer-logo a .img-logo2{
+        width: 4.6rem;
+     }
+     .footer-logo a .img-logo1{
+        width: 2rem;
+     }
+
      .waitlist-btn{
         padding: .4rem .9rem;
         font-size: .6rem;

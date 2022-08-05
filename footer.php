@@ -109,17 +109,17 @@
     </div> -->
 
 
-<div class=" container myfotercontainer  mt-5 ms-auto me-auto w-95">
+<!-- <div class=" container myfotercontainer  mt-5 ms-auto me-auto w-95">
 
     <p class="h1 text-white text-center mt-5 pt-5">Download the app</p>
     <p class="text-muted text-center mb-5 pb-5 w-50 ms-auto me-auto fw-3 fs-3" style="width: 50%; min-width: 50%">Join about 2 million people who buy sell, pay & get paid with Pocket app. No commission on any payments you receive.</p>
     <div class="ms-auto me-auto mb-5 pb-5  d-flex flex-column flex-md-column flex-sm-column flex-lg-row justify-content-center" style="width: fit-content;">
-        <!-- <button class="btn btn-light bbt me-4 mb-sm-3 mb-md-3 mb-lg-0 mb-3"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 28" style="margin-left:12px; margin-right:12px;height:1.6875em;margin-bottom:12px;">
+        <button class="btn btn-light bbt me-4 mb-sm-3 mb-md-3 mb-lg-0 mb-3"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 28" style="margin-left:12px; margin-right:12px;height:1.6875em;margin-bottom:12px;">
                 <path fill="#212337" d="M19.995 23.908c-1.12 1.646-2.278 3.282-4.106 3.316-1.8.034-2.377-1.072-4.43-1.072-2.056 0-2.7 1.038-4.399 1.106-1.765.067-3.108-1.777-4.237-3.416-2.306-3.35-4.066-9.473-1.699-13.605 1.173-2.051 3.273-3.35 5.55-3.384 1.733-.032 3.371 1.175 4.43 1.175 1.06 0 3.049-1.45 5.138-1.237.875.037 3.33.355 4.907 2.674-.124.082-2.93 1.723-2.896 5.142.034 4.084 3.56 5.441 3.6 5.46-.031.096-.563 1.938-1.858 3.84ZM12.317 2.305C13.285 1.165 14.92.317 16.27.26c.173 1.584-.461 3.17-1.397 4.312-.938 1.14-2.474 2.03-3.98 1.91-.205-1.549.554-3.164 1.424-4.177Z"></path>
-            </svg> <span class="h2 ms-2">App Store</span> </button> -->
+            </svg> <span class="h2 ms-2">App Store</span> </button>
 
 
-<!-- 
+
         <button class="btn btn-light bbt me-4 mb-sm-3 mb-md-3">
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 30" style="margin-left:12px; margin-right:12px;height:1.6875em;margin-bottom:12px;">
@@ -129,31 +129,32 @@
                 </g>
             </svg>
             <span class="h2 ms-2">play Store</span> 
-        </button> -->
+        </button>
 
-    </div>
+    </div> -->
 </div>
 
 
-<div class="container ms-auto me-auto mb-5 " style="width: fit-content;">
-    <!-- <button class="btn btn-light bbt me-4 mt-sm-3 t-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">FQA's</span> </button> -->
-    <!-- <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Privacy's</span> </button> -->
-    <!-- <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Team's</span> </button> -->
+<!-- <div class="container ms-auto me-auto mb-5 " style="width: fit-content;">
+    <button class="btn btn-light bbt me-4 mt-sm-3 t-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">FQA's</span> </button>
+    <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Privacy's</span> </button>
+    <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3" style="background-color: whitesmoke;"><span class="h2 ms-2">Team's</span> </button>
     <button class="btn btn-light bbt me-4 mt-sm-3 mt-md-3 mt-lg-2 mt-3" style="background-color: whitesmoke;"><span class="h3 ms-2">Contact Us</span> </button>
 
-</div>
+</div> -->
 <hr class="text-muted">
 <div class=" container mt-5">
-    <h3 class="text-muted text-center">© 2022 Erissal Technologies.</h3>
-    <p class="ms-auto me-auto  text-muted text-center h5">MoolaPay App is a social commerce platform by: <span class="h3"> <br> Erissal Technologies</span>. <br>
+    <h5 class="text-muted text-center letter-space mb-3" >© 2022 Erissal Technologies.</h3>
+    <p class="ms-auto me-auto  text-muted text-center h6 letter-space mb-3">MoolaPay App is a social commerce platform by:
         <!-- Banking services provided by <span class="h3">MoolaPay.</span> -->
     </p>
+    <p class="h5 ms-auto me-auto  text-muted text-center"> Erissal Technologies</p>.
 </div>
 <div class="container ms-auto me-auto mt-3 mb-3" style="width: fit-content;">
-    <div class="logo">
+    <div class="logo footer-logo">
         <a href="/" style="text-decoration: none;">
-            <img class="img-logo1" src="images/logo_logo icon blue copy.png" style=" width: 4rem; height: auto" alt="">
-            <img class="img-logo2" src="images/logo_text blue only copy.png"  style=" width: 10rem; height: auto;"  alt="">
+            <img class="img-logo1" src="images/logo_logo icon blue copy.png"  alt="">
+            <img class="img-logo2" src="images/logo_text blue only copy.png"   alt="">
         </a>
     </div>
 </div>

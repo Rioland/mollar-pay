@@ -8,10 +8,10 @@ class Database{
        
         //    $servername = "ftp.avp.vgy.mybluehost.me";
         $servername = "localhost"; 
-        $username = "myimarke_molapay_waitlist"; 
-        $password = "Rioland@1";
+        $username = "u538836443_moolapay"; 
+        $password = "Moolapay@1";
         try {
-            $conn = new PDO("mysql:host=$servername;dbname=myimarke_molapay_waitlist", $username, $password);
+            $conn = new PDO("mysql:host=$servername;dbname=u538836443_moolapay", $username, $password);
             // set the PDO error mode to exception
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $conn->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_OBJ);
