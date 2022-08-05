@@ -1,7 +1,8 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<link rel="stylesheet" href="./css/footer.css">
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./css/footer.css">
 <!-- <div class='container-fluid'>
 
         <div class="card">
@@ -108,7 +109,7 @@
     </div> -->
 
 
-<div class=" container myfotercontainer  mt-5 ms-auto me-auto">
+<div class=" container myfotercontainer  mt-5 ms-auto me-auto w-95">
 
     <p class="h1 text-white text-center mt-5 pt-5">Download the app</p>
     <p class="text-muted text-center mb-5 pb-5 w-50 ms-auto me-auto fw-3 fs-3" style="width: 50%; min-width: 50%">Join about 2 million people who buy sell, pay & get paid with Pocket app. No commission on any payments you receive.</p>

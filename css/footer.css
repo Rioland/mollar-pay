@@ -4,12 +4,12 @@ body{
 }
 
 .myfotercontainer{
-    height: fit-content;
+    height: fit-content ;
     min-width: 400px;
-    background:url("../images/bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url("../images/bg.png") !important;
+    background-position: center !important; 
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     border-radius: 3rem;
 }
 .w-50{
